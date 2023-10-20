@@ -48,7 +48,7 @@
             tabControl1.Margin = new Padding(4);
             tabControl1.Name = "tabControl1";
             tabControl1.SelectedIndex = 0;
-            tabControl1.Size = new Size(596, 361);
+            tabControl1.Size = new Size(599, 360);
             tabControl1.TabIndex = 0;
             // 
             // TPPokemonModel
@@ -60,7 +60,7 @@
             TPPokemonModel.Margin = new Padding(4);
             TPPokemonModel.Name = "TPPokemonModel";
             TPPokemonModel.Padding = new Padding(4);
-            TPPokemonModel.Size = new Size(588, 327);
+            TPPokemonModel.Size = new Size(591, 326);
             TPPokemonModel.TabIndex = 0;
             TPPokemonModel.Text = "宝可梦模型";
             TPPokemonModel.UseVisualStyleBackColor = true;
@@ -98,10 +98,10 @@
             // TPTool
             // 
             TPTool.Controls.Add(BTTXTToYML);
-            TPTool.Location = new Point(4, 30);
+            TPTool.Location = new Point(4, 26);
             TPTool.Name = "TPTool";
             TPTool.Padding = new Padding(3);
-            TPTool.Size = new Size(588, 327);
+            TPTool.Size = new Size(588, 331);
             TPTool.TabIndex = 1;
             TPTool.Text = "工具";
             TPTool.UseVisualStyleBackColor = true;
@@ -120,7 +120,7 @@
             // 
             AutoScaleDimensions = new SizeF(10F, 21F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(742, 556);
+            ClientSize = new Size(629, 388);
             Controls.Add(tabControl1);
             Font = new Font("Microsoft YaHei UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
             Margin = new Padding(4);

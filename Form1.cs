@@ -1,3 +1,4 @@
+using System;
 using System.Data;
 using System.Text;
 using YamlDotNet.Serialization;
@@ -19,7 +20,8 @@ namespace pokemon_bin_sorting_tool
 
         private class Pokemon
         {
-            public string fileIndex = "";
+            public int indexStart = 0;
+            public int indexEnd = 0;
             public string pokemonName = "";
         }
 
@@ -52,7 +54,7 @@ namespace pokemon_bin_sorting_tool
                 var input = await inputStream.ReadToEndAsync();
                 inputStream.Close();
 
-                string[] inputString = input.Split(new char[] { '\r', '\n'});
+                string[] inputString = input.Split(new char[] { '\r', '\n' });
                 List<string> strings = new List<string>();
                 List<string> outputStrings = new List<string>();
 
@@ -65,7 +67,7 @@ namespace pokemon_bin_sorting_tool
                     {
                         if (line.Contains('\t'))
                         {
-                            strings.Add(line.Trim(new char[] { '\t'}));
+                            strings.Add(line.Trim(new char[] { '\t' }));
                         }
                         else
                         {
@@ -119,23 +121,58 @@ namespace pokemon_bin_sorting_tool
                     Filter = "yml文件(*.yml)|*.yml",
                     Title = "保存yml文件"
                 };
+
+                // 处理index信息
+                List<int> indexStart = new();
+                List<int> indexEnd = new();
+
+                for (int i = 0; i < indexRange.Count; i++)
+                {
+                    string[] indexInfo = indexRange[i].Split('-');
+
+                    // 去除头部0
+                    for (int j = 0; j < indexInfo.Length; j++)
+                    {
+                        //
+                        string index = indexInfo[j];
+                        int trimIndex = -1;
+                        for (int k = 0; k < 6; k++)
+                        {
+                            if (index.IndexOf("0") == k)
+                            {
+                                trimIndex++;
+                            }
+                        }
+
+                        index = index.Remove(0, trimIndex);
+
+                        indexInfo[j] = index;
+                    }
+
+                    // 转为int，并存储
+                    indexStart.Add(int.Parse(indexInfo[0]));
+                    indexEnd.Add(int.Parse(indexInfo[1]));
+                }
+
+                // 整理信息准备输出
+                List<Pokemon> outputPokemonList = new();
+
+                for (int i = 0; i < indexStart.Count; i++)
+                {
+                    Pokemon newPokemon = new()
+                    {
+                        indexStart = indexStart[i],
+                        indexEnd = indexEnd[i],
+                        pokemonName = pokemonName[i],
+                    };
+
+                    outputPokemonList.Add(newPokemon);
+                }
+
                 saveFileDialog.ShowDialog();
 
                 if (saveFileDialog.FileName != "")
                 {
-                    List<Pokemon> outputPokemonList = new();
-
-                    for (int i = 0; i < indexRange.Count; i++)
-                    {
-                        Pokemon newPokemon = new()
-                        {
-                            fileIndex = indexRange[i],
-                            pokemonName = pokemonName[i],
-                        };
-
-                        outputPokemonList.Add(newPokemon);
-                    }
-
                     var OutputData = new PokemonData
                     {
                         PokemonList = outputPokemonList,
