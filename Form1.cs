@@ -13,24 +13,20 @@ namespace pokemon_bin_sorting_tool
 
         private class PokemonData
         {
-            [YamlMember(Alias = "Pokemon", ApplyNamingConventions = false)]
-            public List<string> Pokemon { get; set; } = new List<string>();
+            [YamlMember(Alias = "PokemonList", ApplyNamingConventions = false)]
+            public List<Pokemon> PokemonList { get; set; } = new List<Pokemon>();
         }
 
         private class Pokemon
         {
-            [YamlMember(Alias = "Index", ApplyNamingConventions = false)]
-            public List<string> FileIndex { get; set; } = new List<string>();
-
-            [YamlMember(Alias = "PokemonName", ApplyNamingConventions = false)]
-            public List<string> PokemonName { get; set; } = new List<string>();
+            public string fileIndex = "";
+            public string pokemonName = "";
         }
 
         private PokemonData pokemonData = new();
-        private Pokemon pokemon = new();
 
-        private string defaultPokemonYML = "USUM.yml";
-        private string defaultPokemonYMLPath = "./data/USUM.yml";
+        private readonly string defaultPokemonYML = "USUM.yml";
+        private readonly string defaultPokemonYMLPath = "./data/USUM.yml";
         private string pokemonYML = "";
         private string pokemonYMLPath = "";
 
@@ -100,9 +96,9 @@ namespace pokemon_bin_sorting_tool
                 }
                 //Cursor.Current = Cursors.Default;
 
-                //
-                List<string> indexRange = new List<string>();
-                List<string> pokemonName = new List<string>();
+                // 分别储存序号和名称
+                List<string> indexRange = new();
+                List<string> pokemonName = new();
 
                 foreach (var line in outputStrings)
                 {
@@ -127,15 +123,27 @@ namespace pokemon_bin_sorting_tool
 
                 if (saveFileDialog.FileName != "")
                 {
-                    var DataForTrans = new Pokemon
+                    List<Pokemon> outputPokemonList = new();
+
+                    for (int i = 0; i < indexRange.Count; i++)
                     {
-                        FileIndex = indexRange,
-                        PokemonName = pokemonName
+                        Pokemon newPokemon = new()
+                        {
+                            fileIndex = indexRange[i],
+                            pokemonName = pokemonName[i],
+                        };
+
+                        outputPokemonList.Add(newPokemon);
+                    }
+
+                    var OutputData = new PokemonData
+                    {
+                        PokemonList = outputPokemonList,
                     };
 
                     await using var streamWriter = new StreamWriter(saveFileDialog.OpenFile());
                     var serializer = new Serializer();
-                    await streamWriter.WriteLineAsync(serializer.Serialize(DataForTrans));
+                    await streamWriter.WriteLineAsync(serializer.Serialize(OutputData));
                     streamWriter.Close();
                 }
             }
