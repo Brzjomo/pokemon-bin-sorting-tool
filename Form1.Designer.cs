@@ -30,20 +30,18 @@
         {
             tabControl1 = new TabControl();
             TPPokemonModel = new TabPage();
+            CBIfOutputYML = new CheckBox();
+            BTRun = new Button();
             CBIfReplaceBlank = new CheckBox();
             labelGameVersion = new Label();
             CBGameVersion = new ComboBox();
-            TPTool = new TabPage();
-            BTTXTToYML = new Button();
             tabControl1.SuspendLayout();
             TPPokemonModel.SuspendLayout();
-            TPTool.SuspendLayout();
             SuspendLayout();
             // 
             // tabControl1
             // 
             tabControl1.Controls.Add(TPPokemonModel);
-            tabControl1.Controls.Add(TPTool);
             tabControl1.Location = new Point(17, 15);
             tabControl1.Margin = new Padding(4);
             tabControl1.Name = "tabControl1";
@@ -53,6 +51,8 @@
             // 
             // TPPokemonModel
             // 
+            TPPokemonModel.Controls.Add(CBIfOutputYML);
+            TPPokemonModel.Controls.Add(BTRun);
             TPPokemonModel.Controls.Add(CBIfReplaceBlank);
             TPPokemonModel.Controls.Add(labelGameVersion);
             TPPokemonModel.Controls.Add(CBGameVersion);
@@ -64,6 +64,26 @@
             TPPokemonModel.TabIndex = 0;
             TPPokemonModel.Text = "宝可梦模型";
             TPPokemonModel.UseVisualStyleBackColor = true;
+            // 
+            // CBIfOutputYML
+            // 
+            CBIfOutputYML.AutoSize = true;
+            CBIfOutputYML.Location = new Point(233, 151);
+            CBIfOutputYML.Name = "CBIfOutputYML";
+            CBIfOutputYML.Size = new Size(127, 25);
+            CBIfOutputYML.TabIndex = 4;
+            CBIfOutputYML.Text = "是否输出YML";
+            CBIfOutputYML.UseVisualStyleBackColor = true;
+            // 
+            // BTRun
+            // 
+            BTRun.Location = new Point(450, 258);
+            BTRun.Name = "BTRun";
+            BTRun.Size = new Size(134, 61);
+            BTRun.TabIndex = 3;
+            BTRun.Text = "运行";
+            BTRun.UseVisualStyleBackColor = true;
+            BTRun.Click += BTRun_Click;
             // 
             // CBIfReplaceBlank
             // 
@@ -88,33 +108,13 @@
             // CBGameVersion
             // 
             CBGameVersion.FormattingEnabled = true;
-            CBGameVersion.Items.AddRange(new object[] { "究极日月" });
+            CBGameVersion.Items.AddRange(new object[] { "USUM" });
             CBGameVersion.Location = new Point(104, 14);
             CBGameVersion.Margin = new Padding(4);
             CBGameVersion.Name = "CBGameVersion";
             CBGameVersion.Size = new Size(171, 29);
             CBGameVersion.TabIndex = 0;
-            // 
-            // TPTool
-            // 
-            TPTool.Controls.Add(BTTXTToYML);
-            TPTool.Location = new Point(4, 26);
-            TPTool.Name = "TPTool";
-            TPTool.Padding = new Padding(3);
-            TPTool.Size = new Size(588, 331);
-            TPTool.TabIndex = 1;
-            TPTool.Text = "工具";
-            TPTool.UseVisualStyleBackColor = true;
-            // 
-            // BTTXTToYML
-            // 
-            BTTXTToYML.Location = new Point(26, 24);
-            BTTXTToYML.Name = "BTTXTToYML";
-            BTTXTToYML.Size = new Size(129, 48);
-            BTTXTToYML.TabIndex = 0;
-            BTTXTToYML.Text = "TXT转YML";
-            BTTXTToYML.UseVisualStyleBackColor = true;
-            BTTXTToYML.Click += BTTXTToYML_Click;
+            CBGameVersion.Text = "USUM";
             // 
             // Form1
             // 
@@ -131,7 +131,6 @@
             tabControl1.ResumeLayout(false);
             TPPokemonModel.ResumeLayout(false);
             TPPokemonModel.PerformLayout();
-            TPTool.ResumeLayout(false);
             ResumeLayout(false);
         }
 
@@ -142,7 +141,7 @@
         private ComboBox CBGameVersion;
         private Label labelGameVersion;
         private CheckBox CBIfReplaceBlank;
-        private TabPage TPTool;
-        private Button BTTXTToYML;
+        private Button BTRun;
+        private CheckBox CBIfOutputYML;
     }
 }
