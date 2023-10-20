@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             tabControl1 = new TabControl();
             TPPokemonModel = new TabPage();
             CBIfOutputYML = new CheckBox();
@@ -42,11 +43,11 @@
             // tabControl1
             // 
             tabControl1.Controls.Add(TPPokemonModel);
-            tabControl1.Location = new Point(17, 15);
+            tabControl1.Location = new Point(13, 15);
             tabControl1.Margin = new Padding(4);
             tabControl1.Name = "tabControl1";
             tabControl1.SelectedIndex = 0;
-            tabControl1.Size = new Size(599, 360);
+            tabControl1.Size = new Size(488, 131);
             tabControl1.TabIndex = 0;
             // 
             // TPPokemonModel
@@ -60,7 +61,7 @@
             TPPokemonModel.Margin = new Padding(4);
             TPPokemonModel.Name = "TPPokemonModel";
             TPPokemonModel.Padding = new Padding(4);
-            TPPokemonModel.Size = new Size(591, 326);
+            TPPokemonModel.Size = new Size(480, 97);
             TPPokemonModel.TabIndex = 0;
             TPPokemonModel.Text = "宝可梦模型";
             TPPokemonModel.UseVisualStyleBackColor = true;
@@ -68,7 +69,7 @@
             // CBIfOutputYML
             // 
             CBIfOutputYML.AutoSize = true;
-            CBIfOutputYML.Location = new Point(233, 151);
+            CBIfOutputYML.Location = new Point(165, 54);
             CBIfOutputYML.Name = "CBIfOutputYML";
             CBIfOutputYML.Size = new Size(127, 25);
             CBIfOutputYML.TabIndex = 4;
@@ -77,9 +78,9 @@
             // 
             // BTRun
             // 
-            BTRun.Location = new Point(450, 258);
+            BTRun.Location = new Point(315, 14);
             BTRun.Name = "BTRun";
-            BTRun.Size = new Size(134, 61);
+            BTRun.Size = new Size(144, 65);
             BTRun.TabIndex = 3;
             BTRun.Text = "运行";
             BTRun.UseVisualStyleBackColor = true;
@@ -88,7 +89,9 @@
             // CBIfReplaceBlank
             // 
             CBIfReplaceBlank.AutoSize = true;
-            CBIfReplaceBlank.Location = new Point(61, 87);
+            CBIfReplaceBlank.Checked = true;
+            CBIfReplaceBlank.CheckState = CheckState.Checked;
+            CBIfReplaceBlank.Location = new Point(23, 54);
             CBIfReplaceBlank.Name = "CBIfReplaceBlank";
             CBIfReplaceBlank.Size = new Size(125, 25);
             CBIfReplaceBlank.TabIndex = 2;
@@ -109,10 +112,10 @@
             // 
             CBGameVersion.FormattingEnabled = true;
             CBGameVersion.Items.AddRange(new object[] { "USUM" });
-            CBGameVersion.Location = new Point(104, 14);
+            CBGameVersion.Location = new Point(109, 14);
             CBGameVersion.Margin = new Padding(4);
             CBGameVersion.Name = "CBGameVersion";
-            CBGameVersion.Size = new Size(171, 29);
+            CBGameVersion.Size = new Size(183, 29);
             CBGameVersion.TabIndex = 0;
             CBGameVersion.Text = "USUM";
             // 
@@ -120,9 +123,10 @@
             // 
             AutoScaleDimensions = new SizeF(10F, 21F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(629, 388);
+            ClientSize = new Size(514, 159);
             Controls.Add(tabControl1);
             Font = new Font("Microsoft YaHei UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Margin = new Padding(4);
             MaximizeBox = false;
             Name = "Form1";

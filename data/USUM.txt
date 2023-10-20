@@ -1,0 +1,1053 @@
+00001-00009: Bulbasaur
+00010-00018: Ivysaur
+00019-00027: Venusaur
+00028-00036: Female Venusaur
+00037-00045: Mega Venusaur
+00046-00054: Charmander
+00055-00063: Charmeleon
+00064-00072: Charizard
+00073-00081: Mega Charizard X
+00082-00090: Mega Charizard Y
+00091-00099: Squirtle
+00100-00108: Wartortle
+00109-00117: Blastoise
+00118-00126: Mega Blastoise
+00127-00135: Caterpie
+00136-00144: Metapod
+00145-00153: Butterfree
+00154-00162: Female Butterfree
+00163-00171: Weedle
+00172-00180: Kakuna
+00181-00189: Beedrill
+00190-00198: Mega Beedrill
+00199-00207: Pidgey
+00208-00216: Pidgeotto
+00217-00225: Pidgeot
+00226-00234: Mega Pidgeot
+00235-00243: Rattata
+00244-00252: Female Rattata
+00253-00261: Alolan Rattata
+00262-00270: Raticate
+00271-00279: Female Raticate
+00280-00297: Alolan Raticate
+00298-00306: Spearow
+00307-00315: Fearow
+00316-00324: Ekans
+00325-00333: Arbok
+00334-00342: Pikachu
+00343-00351: Female Pikachu
+00352-00360: Kanto Pikachu
+00361-00369: Johto Pikachu
+00370-00378: Sinnoh Pikachu
+00379-00387: Unova Pikachu
+00388-00396: Kalos Pikachu
+00397-00405: Alola Pikachu
+00406-00414: I Choose You! Pikachu
+00415-00423: Raichu
+00424-00432: Female Raichu
+00433-00441: Alolan Raichu
+00442-00450: Sandshrew
+00451-00459: Alolan Sandshrew
+00460-00468: Sandslash
+00469-00477: Alolan Sandslash
+00478-00486: Nidoran (F)
+00487-00495: Nidorina
+00496-00504: Nidoqueen
+00505-00513: Nidoran (M)
+00514-00522: Nidorino
+00523-00531: Nidoking
+00532-00540: Clefairy
+00541-00549: Clefable
+00550-00558: Vulpix
+00559-00567: Alolan Vulpix
+00568-00576: Ninetales
+00577-00585: Alolan Ninetales
+00586-00594: Jigglypuff
+00595-00603: Wigglytuff
+00604-00612: Zubat
+00613-00621: Female Zubat
+00622-00630: Golbat
+00631-00639: Female Golbat
+00640-00648: Oddish
+00649-00657: Gloom
+00658-00666: Female Gloom
+00667-00675: Vileplume
+00676-00684: Female Vileplume
+00685-00693: Paras
+00694-00702: Parasect
+00703-00711: Venonat
+00712-00720: Venomoth
+00721-00729: Diglett
+00730-00738: Alolan Diglett
+00739-00747: Dugtrio
+00748-00756: Alolan Dugtrio
+00757-00765: Meowth
+00766-00774: Alolan Meowth
+00775-00783: Persian
+00784-00792: Alolan Persian
+00793-00801: Psyduck
+00802-00810: Golduck
+00811-00819: Mankey
+00820-00828: Primeape
+00829-00837: Growlithe
+00838-00846: Arcanine
+00847-00855: Poliwag
+00856-00864: Poliwhirl
+00865-00873: Poliwrath
+00874-00882: Abra
+00883-00891: Kadabra
+00892-00900: Female Kadabra
+00901-00909: Alakazam
+00910-00918: Female Alakazam
+00919-00927: Mega Alakazam
+00928-00936: Machop
+00937-00945: Machoke
+00946-00954: Machamp
+00955-00963: Bellsprout
+00964-00972: Weepinbell
+00973-00981: Victreebel
+00982-00990: Tentacool
+00991-00999: Tentacruel
+01000-01008: Geodude
+01009-01017: Alolan Geodude
+01018-01026: Graveler
+01027-01035: Alolan Graveler
+01036-01044: Golem
+01045-01053: Alolan Golem
+01054-01062: Ponyta
+01063-01071: Rapidash
+01072-01080: Slowpoke
+01081-01089: Slowbro
+01090-01098: Mega Slowbro
+01099-01107: Magnemite
+01108-01116: Magneton
+01117-01125: Farfetch'd
+01126-01134: Doduo
+01135-01143: Female Doduo
+01144-01152: Dodrio
+01153-01161: Female Dodrio
+01162-01170: Seel
+01171-01179: Dewgong
+01180-01188: Grimer
+01189-01197: Alolan Grimer
+01198-01206: Muk
+01207-01215: Alolan Muk
+01216-01224: Shellder
+01225-01233: Cloyster
+01234-01242: Gastly
+01243-01251: Haunter
+01252-01260: Gengar
+01261-01269: Mega Gengar
+01270-01278: Onix
+01279-01287: Drowzee
+01288-01296: Hypno
+01297-01305: Female Hypno
+01306-01314: Krabby
+01315-01323: Kingler
+01324-01332: Voltorb
+01333-01341: Electrode
+01342-01350: Exeggcute
+01351-01359: Exeggutor
+01360-01368: Alolan Exeggutor
+01369-01377: Cubone
+01378-01386: Marowak
+01387-01404: Alolan Marowak
+01405-01413: Hitmonlee
+01414-01422: Hitmonchan
+01423-01431: Lickitung
+01432-01440: Koffing
+01441-01449: Weezing
+01450-01458: Rhyhorn
+01459-01467: Female Rhyhorn
+01468-01476: Rhydon
+01477-01485: Female Rhydon
+01486-01494: Chansey
+01495-01503: Tangela
+01504-01512: Kangaskhan
+01513-01521: Mega Kangashan
+01522-01530: Horsea
+01531-01539: Seadra
+01540-01548: Goldeen
+01549-01557: Female Goldeen
+01558-01566: Seaking
+01567-01575: Female Seaking
+01576-01584: Staryu
+01585-01593: Starmie
+01594-01602: Mr. Mime
+01603-01611: Scyther
+01612-01620: Female Scyther
+01621-01629: Jynx
+01630-01638: Electabuzz
+01639-01647: Magmar
+01648-01656: Pinsir
+01657-01665: Mega Pinsir
+01666-01674: Tauros
+01675-01683: Magikarp
+01684-01692: Female Magikarp
+01693-01701: Gyarados
+01702-01710: Female Gyarados
+01711-01719: Mega Gyarados
+01720-01728: Lapras
+01729-01737: Ditto
+01738-01746: Eevee
+01747-01755: Vaporeon
+01756-01764: Jolteon
+01765-01773: Flareon
+01774-01782: Porygon
+01783-01791: Omanyte
+01792-01800: Omastar
+01801-01809: Kabuto
+01810-01818: Kabutops
+01819-01827: Aerodactyl
+01828-01836: Mega Aerodactyl
+01837-01845: Snorlax
+01846-01854: Articuno
+01855-01863: Zapdos
+01864-01872: Moltres
+01873-01881: Dratini
+01882-01890: Dragonair
+01891-01899: Dragonite
+01900-01908: Mewtwo
+01909-01917: Mega Mewtwo X
+01918-01926: Mega Mewtwo Y
+01927-01935: Mew
+01936-01944: Chikorita
+01945-01953: Bayleef
+01954-01962: Meganium
+01963-01971: Female Meganium
+01972-01980: Cyndaquil
+01981-01989: Quilava
+01990-01998: Typhlosion
+01999-02007: Totodile
+02008-02016: Croconaw
+02017-02025: Feraligatr
+02026-02034: Sentret
+02035-02043: Furret
+02044-02052: Hoothoot
+02053-02061: Noctowl
+02062-02070: Ledyba
+02071-02079: Female Ledyba
+02080-02088: Ledian
+02089-02097: Female Ledian
+02098-02106: Spinarak
+02107-02115: Ariados
+02116-02124: Crobat
+02125-02133: Chinchou
+02134-02142: Lanturn
+02143-02151: Pichu
+02152-02160: Cleffa
+02161-02169: Igglybuff
+02170-02178: Togepi
+02179-02187: Togetic
+02188-02196: Natu
+02197-02205: Xatu
+02206-02214: Female Xatu
+02215-02223: Mareep
+02224-02232: Flaaffy
+02233-02241: Ampharos
+02242-02250: Mega Ampharos
+02251-02259: Bellossom
+02260-02268: Marill
+02269-02277: Azumarill
+02278-02286: Sudowoodo
+02287-02295: Female Sudowoodo
+02296-02304: Politoed
+02305-02313: Female Politoed
+02314-02322: Hoppip
+02323-02331: Skiploom
+02332-02340: Jumpluff
+02341-02349: Aipom
+02350-02358: Female Aipom
+02359-02367: Sunkern
+02368-02376: Sunflora
+02377-02385: Yanma
+02386-02394: Wooper
+02395-02403: Female Wooper
+02404-02412: Quagsire
+02413-02421: Female Quagsire
+02422-02430: Espeon
+02431-02439: Umbreon
+02440-02448: Murkrow
+02449-02457: Female Murkrow
+02458-02466: Slowking
+02467-02475: Misdreavus
+02476-02727: Unown All Symbols, In Order
+02728-02736: Wobbuffet
+02737-02745: Female Wobbuffet
+02746-02754: Girafarig
+02755-02763: Female Girafarig
+02764-02772: Pineco
+02773-02781: Forretress
+02782-02790: Dunsparce
+02791-02799: Gligar
+02800-02808: Female Gligar
+02809-02817: Steelix
+02818-02826: Female Steelix
+02827-02835: Mega Steelix
+02836-02844: Snubbull
+02845-02853: Granbull
+02854-02862: Qwilfish
+02863-02871: Scizor
+02872-02880: Female Scizor
+02881-02889: Mega Scizor
+02890-02898: Shuckle
+02899-02907: Heracross
+02908-02916: Female Heracross
+02917-02925: Mega Heracross
+02926-02934: Sneasel
+02935-02943: Female Sneasel
+02944-02952: Teddiursa
+02953-02961: Ursaring
+02962-02970: Female Ursaring
+02971-02979: Slugma
+02980-02988: Magcargo
+02989-02997: Swinub
+02998-03006: Piloswine
+03007-03015: Female Piloswine
+03016-03024: Corsola
+03025-03033: Remoraid
+03034-03042: Octillery
+03043-03051: Female Octillery
+03052-03060: Delibird
+03061-03069: Mantine
+03070-03078: Skarmory
+03079-03087: Houndour
+03088-03096: Houndoom
+03097-03105: Female Houndoom
+03106-03114: Mega Houndoom
+03115-03123: Kingdra
+03124-03132: Phanpy
+03133-03141: Donphan
+03142-03150: Female Donphan
+03151-03159: Porygon2
+03160-03168: Stantler
+03169-03177: Smeargle
+03178-03186: Tyrogue
+03187-03195: Hitmontop
+03196-03204: Smoochum
+03205-03213: Elekid
+03214-03222: Magby
+03223-03231: Miltank
+03232-03240: Blissey
+03241-03249: Raikou
+03250-03258: Entei
+03259-03267: Suicune
+03268-03276: Larvitar
+03277-03285: Pupitar
+03286-03294: Tyranitar
+03295-03303: Mega Tyranitar
+03304-03312: Lugia
+03313-03321: Ho-Oh
+03322-03330: Celebi
+03331-03339: Treecko
+03340-03348: Grovyle
+03349-03357: Sceptile
+03358-03366: Mega Sceptile
+03367-03375: Torchic
+03376-03384: Female Torchic
+03385-03393: Combusken
+03394-03402: Female Combusken
+03403-03411: Blaziken
+03412-03420: Female Blaziken
+03421-03429: Mega Blaziken
+03430-03438: Mudkip
+03439-03447: Marshtomp
+03448-03456: Swampert
+03457-03465: Mega Swampert
+03466-03474: Poochyena
+03475-03483: Mightyena
+03484-03492: Zigzagoon
+03493-03501: Linoone
+03502-03510: Wurmple
+03511-03519: Silcoon
+03520-03528: Beautifly
+03529-03537: Female Beautifly
+03538-03546: Cascoon
+03547-03555: Dustox
+03556-03564: Female Dusclops
+03565-03573: Lotad
+03574-03582: Lombre
+03583-03591: Ludicolo
+03592-03600: Female Ludicolo
+03601-03609: Seedot
+03610-03618: Nuzleaf
+03619-03627: Female Nuzleaf
+03628-03636: Shiftry
+03637-03645: Female Shiftry
+03646-03654: Taillow
+03655-03663: Swellow
+03664-03672: Wingull
+03673-03681: Pelipper
+03682-03690: Ralts
+03691-03699: Kirlia
+03700-03708: Gardevoir
+03709-03717: Mega Gardevoir
+03718-03726: Surskit
+03727-03735: Masquerain
+03736-03744: Shroomish
+03745-03753: Breloom
+03754-03762: Slakoth
+03763-03771: Vigoroth
+03772-03780: Slaking
+03781-03789: Nincada
+03790-03798: Ninjask
+03799-03807: Shedinja
+03808-03816: Whismur
+03817-03825: Loudred
+03826-03834: Exploud
+03835-03843: Makuhita
+03844-03852: Hariyama
+03853-03861: Azurill
+03862-03870: Nosepass
+03871-03879: Skitty
+03880-03888: Delcatty
+03889-03897: Sableye
+03898-03906: Mega Sableye
+03907-03915: Mawile
+03916-03924: Mega Mawile
+03925-03933: Aron
+03934-03942: Lairon
+03943-03951: Aggron
+03952-03960: Mega Aggron
+03961-03969: Meditite
+03970-03978: Female Meditite
+03979-03987: Medicham
+03988-03996: Female Medicham
+03997-04005: Mega Medicham
+04006-04014: Electrike
+04015-04023: Manectric
+04024-04032: Mega Manectric
+04033-04041: Plusle
+04042-04050: Minun
+04051-04059: Volbeat
+04060-04068: Illumise
+04069-04077: Roselia
+04078-04086: Female Roselia
+04087-04095: Gulpin
+04096-04104: Female Gulpin
+04105-04113: Swalot
+04114-04122: Female Swalot
+04123-04131: Carvanha
+04132-04140: Sharpedo
+04141-04149: Mega Sharpedo
+04150-04158: Wailmer
+04159-04167: Wailord
+04168-04176: Numel
+04177-04185: Female Numel
+04186-04194: Camerupt
+04195-04203: Female Camerupt
+04204-04212: Mega Camerupt
+04213-04221: Torkoal
+04222-04230: Spoink
+04231-04239: Grumpig
+04240-04248: Spinda
+04249-04257: Trapinch
+04258-04266: Vibrava
+04267-04275: Flygon
+04276-04284: Cacnea
+04285-04293: Cacturne
+04294-04302: Female Cacturne
+04303-04311: Swablu
+04312-04320: Altaria
+04321-04329: Mega Altaria
+04330-04338: Zangoose
+04339-04347: Seviper
+04348-04356: Lunatone
+04357-04365: Solrock
+04366-04374: Barbroach
+04375-04383: Whiscash
+04384-04392: Corphish
+04393-04401: Crawdaunt
+04402-04410: Baltoy
+04411-04419: Claydol
+04420-04428: Lileep
+04429-04437: Cradily
+04438-04446: Anorith
+04447-04455: Armaldo
+04456-04464: Feebas
+04465-04473: Milotic
+04474-04482: Female Milotic
+04483-04491: Castform
+04492-04500: Castform Sunny
+04501-04509: Castform Rainy
+04510-04518: Castform Snowy
+04519-04527: Kecleon
+04528-04536: Shuppet
+04537-04545: Banette
+04546-04554: Mega Banette
+04555-04563: Duskull
+04564-04572: Dusclops
+04573-04581: Tropius
+04582-04590: Chimecho
+04591-04599: Absol
+04600-04608: Mega Absol
+04609-04617: Wynaut
+04618-04626: Snorunt
+04627-04635: Glalie
+04636-04644: Mega Glalie
+04645-04653: Spheal
+04654-04662: Sealeo
+04663-04671: Walrein
+04672-04680: Clamperl
+04681-04689: Huntail
+04690-04698: Gorebyss
+04699-04707: Relicanth
+04708-04716: Female Relicanth
+04717-04725: Luvdisc
+04726-04734: Bagon
+04735-04743: Shelgon
+04744-04752: Salamence
+04753-04761: Mega Salamence
+04762-04770: Beldum
+04771-04779: Metang
+04780-04788: Metagross
+04789-04797: Mega Metagross
+04798-04806: Regirock
+04807-04815: Regice
+04816-04824: Registeel
+04825-04833: Latias
+04834-04842: Mega Latias
+04843-04851: Latios
+04852-04860: Mega Latios
+04861-04869: Kyogre
+04870-04878: Primal Kyogre
+04879-04887: Groudon
+04888-04896: Primal Groudon
+04897-04905: Rayquaza
+04906-04914: Mega Rayquaza
+04915-04923: Jirachi
+04924-04932: Deoxys (Normal)
+04933-04941: Deoxys (Attack)
+04942-04950: Deoxys (Defense)
+04951-04959: Deoxys (Speed)
+04960-04968: Turtwig
+04969-04977: Grotle
+04978-04986: Torterra
+04987-04995: Chimchar
+04996-05004: Monferno
+05005-05013: Infernape
+05014-05022: Piplup
+05023-05031: Prinplup
+05032-05040: Empoleon
+05041-05049: Starly
+05050-05058: Female Starly
+05059-05067: Staravia
+05068-05076: Female Staravia
+05077-05085: Staraptor
+05086-05094: Female Staraptor
+05095-05103: Bidoof
+05104-05112: Female Bidoof
+05113-05121: Bibarel
+05122-05130: Female Bibarel
+05131-05139: Kricketot
+05140-05148: Female Kricketot
+05149-05157: Kricketune
+05158-05166: Female Kricketune
+05167-05175: Shinx
+05176-05184: Female Shinx
+05185-05193: Luxio
+05194-05202: Female Luxio
+05203-05211: Luxray
+05212-05220: Female Luxray
+05221-05229: Budew
+05230-05238: Roserade
+05239-05247: Female Roserade
+05248-05256: Cranidos
+05257-05265: Ramparados
+05266-05274: Shieldon
+05275-05283: Bastiodon
+05284-05292: Burmy (Plant)
+05293-05301: Burmy (Sandy)
+05302-05310: Burmy (Trash)
+05311-05319: Wormadam (Plant)
+05320-05328: Wormadam (Sandy)
+05329-05337: Wormadam (Trash)
+05338-05346: Mothim
+05347-05355: Combee
+05356-05364: Female Combee
+05365-05373: Vespiquen
+05374-05382: Pachirisu
+05383-05391: Female Pachirisu
+05392-05400: Buizel
+05401-05409: Female Buizel
+05410-05418: Floatzel
+05419-05427: Female Floatzel
+05428-05436: Cherubi
+05437-05445: Cherrim (Overcast)
+05446-05454: Cherrim (Sunshine)
+05455-05463: Shellos (West)
+05464-05472: Shellos (East)
+05473-05481: Gastrodon (West)
+05482-05490: Gastrodon (East)
+05491-05499: Ambipom
+05500-05508: Female Ambipom
+05509-05517: Drifloon
+05518-05526: Drifblim
+05527-05535: Buneary
+05536-05544: Lopunny
+05545-05553: Mega Lopunny
+05554-05562: Mismagius
+05563-05571: Honchkrow
+05572-05580: Glameow
+05581-05589: Purrugly
+05590-05598: Chingling
+05599-05607: Stunky
+05608-05616: Skuntank
+05617-05625: Bronzor
+05626-05634: Bronzong
+05635-05643: Bonsly
+05644-05652: Mime Jr.
+05653-05661: Happiny
+05662-05670: Chatot
+05671-05679: Spiritomb
+05680-05688: Gible
+05689-05697: Female Gible
+05698-05706: Gabite
+05707-05715: Female Gabite
+05716-05724: Garchomp
+05725-05733: Female Garchomp
+05734-05742: Mega Garchomp
+05743-05751: Munchlax
+05752-05760: Riolu
+05761-05769: Lucario
+05770-05778: Mega Lucario
+05779-05787: Hippopotas
+05788-05796: Female Hippopotas
+05797-05805: Hippowdon
+05806-05814: Female Hippowdon
+05815-05823: Skorupi
+05824-05832: Drapion
+05833-05841: Croagunk
+05842-05850: Female Croagunk
+05851-05859: Toxicroak
+05860-05868: Female Toxicroak
+05869-05877: Carnivine
+05878-05886: Finneon
+05887-05895: Female Finneon
+05896-05904: Lumineon
+05905-05913: Female Lumineon
+05914-05922: Mantyke
+05923-05931: Snover
+05932-05940: Female Snover
+05941-05949: Abomasnow
+05950-05958: Female Abomasnow
+05959-05967: Mega Abomasnow
+05968-05976: Weavile
+05977-05985: Female Weavile
+05986-05994: Magnezone
+05995-06003: Lickilicky
+06004-06012: Rhypherior
+06013-06021: Female Rhypherior
+06022-06030: Tangrowth
+06031-06039: Female Tangrowth
+06040-06048: Electivire
+06049-06057: Magmortar
+06058-06066: Togekiss
+06067-06075: Yanmega
+06076-06084: Leafeon
+06085-06093: Glaceon
+06094-06102: Gliscor
+06103-06111: Mamoswine
+06112-06120: Female Mamoswine
+06121-06129: Porygon-Z
+06130-06138: Gallade
+06139-06147: Mega Gallade
+06148-06156: Probopass
+06157-06165: Dusknoir
+06166-06174: Froslass
+06175-06183: Rotom (Normal)
+06184-06192: Rotom (Heat)
+06193-06201: Rotom (Wash)
+06202-06210: Rotom (Frost)
+06211-06219: Rotom (Fan)
+06220-06228: Rotom (Mow)
+06229-06237: Uxie
+06238-06246: Mesprit
+06247-06255: Azelf
+06256-06264: Dialga
+06265-06273: Palkia
+06274-06282: Heatran
+06283-06291: Regigigas
+06292-06300: Giratina (Altered)
+06301-06309: Giratina (Origin)
+06310-06318: Cresselia
+06319-06327: Phione
+06328-06336: Manaphy
+06337-06345: Darkrai
+06346-06354: Shaymin (Land)
+06355-06363: Shaymin (Sky)
+06364-06525: Arceus (Normal-Fairy, in Type Order)
+06526-06534: Victini
+06535-06543: Snivy
+06544-06552: Servine
+06553-06561: Serperior
+06562-06570: Tepig
+06571-06579: Pignite
+06580-06588: Emboar
+06589-06597: Oshawott
+06598-06606: Dewott
+06607-06615: Samurott
+06616-06624: Patrat
+06625-06633: Watchog
+06634-06642: Lillipup
+06643-06651: Herdier
+06652-06660: Stoutland
+06661-06669: Purrloin
+06670-06678: Liepard
+06679-06687: Pansage
+06688-06696: Simisage
+06697-06705: Pansear
+06706-06714: Simisear
+06715-06723: Panpour
+06724-06732: Simipour
+06733-06741: Munna
+06742-06750: Musharna
+06751-06759: Pidove
+06760-06768: Tranquill
+06769-06777: Unfezant
+06778-06786: Female Unfezant
+06787-06795: Blitzle
+06796-06804: Zebstrika
+06805-06813: Roggenrola
+06814-06822: Boldore
+06823-06831: Gigalith
+06832-06840: Woobat
+06841-06849: Swoobat
+06850-06858: Drilbur
+06859-06867: Excadrill
+06868-06876: Audino
+06877-06885: Mega Audino
+06886-06894: Timburr
+06895-06903: Gurdurr
+06904-06912: Conkeldurr
+06913-06921: Tympole
+06922-06930: Palpitoad
+06931-06939: Seismitoad
+06940-06948: Throh
+06949-06957: Sawk
+06958-06966: Sewaddle
+06967-06975: Swadloon
+06976-06984: Leavanny
+06985-06993: Venipede
+06994-07002: Whirlipede
+07003-07011: Scolipede
+07012-07020: Cottonee
+07021-07029: Whimsicott
+07030-07038: Petilil
+07039-07047: Lilligant
+07048-07056: Basculin (Red)
+07057-07065: Basculin (Blue)
+07066-07074: Sandile
+07075-07083: Krokorok
+07084-07092: Krookodile
+07093-07101: Darumaka
+07102-07110: Darmanitan (Standard)
+07111-07119: Darmanitan (Zen)
+07120-07128: Maractus
+07129-07137: Dwebble
+07138-07146: Crustle
+07147-07155: Scraggy
+07156-07164: Scrafty
+07165-07173: Sigilyph
+07174-07182: Yamask
+07183-07191: Cofagrigus
+07192-07200: Tirtouga
+07201-07209: Carracosta
+07210-07218: Archen
+07219-07227: Archeops
+07228-07236: Trubbish
+07237-07245: Garbodor
+07246-07254: Zorua
+07255-07263: Zoroark
+07264-07272: Minccino
+07273-07281: Cinccino
+07282-07290: Gothita
+07291-07299: Gothorita
+07300-07308: Gothitelle
+07309-07317: Solosis
+07318-07326: Duosion
+07327-07335: Reuniclus
+07336-07344: Ducklett
+07345-07353: Swanna
+07354-07362: Vanillite
+07363-07371: Vanillish
+07372-07380: Vanilluxe
+07381-07389: Deerling (Spring)
+07390-07398: Deerling (Summer)
+07399-07407: Deerling (Autumn)
+07408-07416: Deerling (Winter)
+07417-07425: Sawsbuck (Spring)
+07426-07434: Sawsbuck (Summer)
+07435-07443: Sawsbuck (Autumn)
+07444-07452: Sawsbuck (Winter)
+07453-07461: Emolga
+07462-07470: Karrablast
+07471-07479: Escavalier
+07480-07488: Foongus
+07489-07497: Amoonguss
+07498-07506: Frillish
+07507-07515: Female Frillish
+07516-07524: Jellicent
+07525-07533: Female Jellicent
+07534-07542: Alomomola
+07543-07551: Joltik
+07552-07560: Galvantula
+07561-07569: Ferroseed
+07570-07578: Ferrothorn
+07579-07587: Klink
+07588-07596: Klang
+07597-07605: Klinklang
+07606-07614: Tynamo
+07615-07623: Eelektrik
+07624-07632: Eelektross
+07633-07641: Elgyem
+07642-07650: Beheeyem
+07651-07659: Litwik
+07660-07668: Lampent
+07669-07677: Chandelure
+07678-07686: Axew
+07687-07695: Fraxure
+07696-07704: Haxorus
+07705-07713: Cubchoo
+07714-07722: Beartic
+07723-07731: Cryogonal
+07732-07740: Shelmet
+07741-07749: Accelgor
+07750-07758: Stunfisk
+07759-07767: Mienfoo
+07768-07776: Mienshao
+07777-07785: Druddigon
+07786-07794: Golett
+07795-07803: Golurk
+07804-07812: Pawniard
+07813-07821: Bisharp
+07822-07830: Bouffalant
+07831-07839: Rufflet
+07840-07848: Braviary
+07849-07857: Vullaby
+07858-07866: Mandibuzz
+07867-07875: Heatmor
+07876-07884: Durant
+07885-07893: Deino
+07894-07902: Zweilous
+07903-07911: Hydreigon
+07912-07920: Larvesta
+07921-07929: Volcarona
+07930-07938: Cobalion
+07939-07947: Terrakion
+07948-07956: Virizion
+07957-07965: Tornadus
+07966-07974: Tornadus (Therian)
+07975-07983: Thundurus
+07984-07992: Thundurus (Therian)
+07993-08001: Reshiram
+08002-08010: Zekrom
+08011-08019: Landorus
+08020-08028: Landorus (Therian)
+08029-08037: Kyurem
+08038-08046: Kyurem (White)
+08047-08055: Kyurem (Black)
+08056-08064: Keldeo (Ordinary)
+08065-08073: Keldeo (Resolute)
+08074-08082: Meloetta (Aria)
+08083-08091: Meloetta (Pirouette)
+08092-08136: Genesect (All)
+08137-08145: Chespin
+08146-08154: Quilladin
+08155-08163: Chesnaught
+08164-08172: Fennekin
+08173-08181: Braixen
+08182-08190: Delphox
+08191-08199: Froakie
+08200-08208: Frogadier
+08209-08226: Greninja
+08227-08235: Ash Greninja
+08236-08244: Bunnelby
+08245-08253: Diggersby
+08254-08262: Fletchling
+08263-08271: Fletchinder
+08272-08280: Talonflame
+08281-08289: Scatterbug
+08290-08298: Spewpa
+08299-08478: All Vivillon Forms
+08479-08487: Litleo
+08488-08496: Pyroar
+08497-08505: Female Pyroar
+08506-08514: Flabébé (Red)
+08515-08523: Flabébé (Yellow)
+08524-08532: Flabébé (Orange)
+08533-08541: Flabébé (Blue)
+08542-08550: Flabébé (White)
+08551-08559: Floette (Red)
+08560-08568: Floette (Yellow)
+08569-08577: Floette (Orange)
+08578-08586: Floette (Blue)
+08587-08595: Floette (White)
+08596-08604: Floette (Eternal)
+08605-08613: Florges (Red)
+08614-08622: Florges (Yellow)
+08623-08631: Florges (Orange)
+08632-08640: Florges (Blue)
+08641-08649: Florges (White)
+08650-08658: Skiddo
+08659-08667: Gogoat
+08668-08676: Pancham
+08677-08685: Pangoro
+08686-08694: Furfrou (Natural)
+08695-08703: Furfrou (Heart Trim)
+08704-08712: Furfrou (Star Trim)
+08713-08721: Furfrou (Diamond Trim)
+08722-08730: Furfrou (Debutante Trim)
+08731-08739: Furfrou (Matron Trim)
+08740-08748: Furfrou (Dandy Trim)
+08749-08757: Furfrou (La Reine Trim)
+08758-08766: Furfrou (Kabuki Trim)
+08767-08775: Furfrou (Pharaoh Trim)
+08776-08784: Espurr
+08785-08793: Meowstic
+08794-08802: Female Meowstic
+08803-08811: Honedge
+08812-08820: Doublade
+08821-08829: Aegislash (Shield)
+08830-08838: Aegislash (Blade)
+08839-08847: Spritzee
+08848-08856: Aromatisse
+08857-08865: Swirlix
+08866-08874: Slurpuff
+08875-08883: Inkay
+08884-08892: Malamar
+08893-08901: Binacle
+08902-08910: Barbaracle
+08911-08919: Skrelp
+08920-08928: Dragalge
+08929-08937: Clauncher
+08938-08946: Clawitzer
+08947-08955: Helioptile
+08956-08964: Heliolisk
+08965-08973: Tyrunt
+08974-08982: Tyrantrum
+08983-08991: Amaura
+08992-09000: Aurorus
+09001-09009: Sylveon
+09010-09018: Hawlucha
+09019-09027: Dedenne
+09028-09036: Carbink
+09037-09045: Goomy
+09046-09054: Sliggoo
+09055-09063: Goodra
+09064-09072: Klefki
+09073-09081: Phantump
+09082-09090: Trevenant
+09091-09126: Pumpkaboo
+09127-09162: Gourgeist
+09163-09171: Bergmite
+09172-09180: Avalugg
+09181-09189: Noibat
+09190-09198: Noivern
+09199-09207: Xerneas
+09208-09216: Yveltal
+09217-09225: Zygarde (50%)
+09226-09252: Zygarde (10%)
+09253-09261: Zygarde (100%)
+09262-09270: Diancie
+09271-09279: Mega Diancie
+09280-09288: Hoopa (Confined)
+09289-09297: Hoopa (Unbound)
+09298-09306: Volcanion
+09307-09315: Rowlet
+09316-09324: Dartrix
+09325-09333: Decidueye
+09334-09342: Litten
+09343-09351: Torracat
+09352-09360: Incineroar
+09361-09369: Popplio
+09370-09378: Brionne
+09379-09387: Primarina
+09388-09396: Pikipek
+09397-09405: Trumbeak
+09406-09414: Toucannon
+09415-09423: Yungoos
+09424-09441: Gumshoos
+09442-09450: Grubbin
+09451-09459: Charjabug
+09460-09477: Vikavolt
+09478-09486: Crabrawler
+09487-09495: Crabominable
+09496-09504: Oricorio (Fire)
+09505-09513: Oricorio (Electric)
+09514-09522: Oricorio (Psychic)
+09523-09531: Oricorio (Ghost)
+09532-09540: Cutiefly
+09541-09558: Ribombee
+09559-09567: Rockruff
+09568-09576: Lycanroc (Dawn)
+09577-09585: Lycanroc (Midnight)
+09586-09594: Lycanroc (Dusk)
+09595-09603: Wishiwashi
+09604-09612: Wishiwashi (School)
+09613-09621: Mareanie
+09622-09630: Toxapex
+09631-09639: Mudbray
+09640-09648: Mudsdale
+09649-09657: Dewpider
+09658-09675: Araquanid
+09676-09684: Fomantis
+09685-09702: Lurantis
+09703-09711: Morelull
+09712-09720: Shiinotic
+09721-09729: Salandit
+09730-09747: Salazzle
+09748-09756: Stufful
+09757-09765: Bewear
+09766-09774: Bounsweet
+09775-09783: Steenee
+09784-09792: Tsareena
+09793-09801: Comfey
+09802-09810: Oranguru
+09811-09819: Passimian
+09820-09828: Wimpod
+09829-09837: Golisopod
+09838-09846: Sandygast
+09847-09855: Pallosand
+09856-09864: Pyukumuku
+09865-09873: Type_Null
+09874-10035: Silvally (Normal-Fairy)
+10036-10161: Minior (all forms)
+10162-10170: Komala
+10171-10179: Turtonator
+10180-10197: Togedemaru
+10198-10233: Mimikyu
+10234-10242: Bruxish
+10243-10251: Drampa
+10252-10260: Dhelmise
+10261-10269: Jangmo-o
+10270-10278: Hakamo-o
+10279-10296: Kommo-o
+10297-10305: Tapu Koko
+10306-10314: Tapu Lele
+10315-10323: Tapu Bulu
+10324-10332: Tapu Fini
+10333-10341: Cosmog
+10342-10350: Cosmoem
+10351-10359: Solgaleo
+10360-10368: Lunala
+10369-10377: Nihilego
+10378-10386: Buzzwole
+10387-10395: Pheromosa
+10396-10404: Xurkitree
+10405-10413: Celesteela
+10414-10422: Kartana
+10423-10431: Guzzlord
+10432-10440: Necrozma (Normal)
+10441-10449: Necrozma (Solgaleo/Dusk Mane)
+10450-10458: Necrozma (Lunala/Dawn Wings)
+10459-10467: Necrozma (Ultra)
+10468-10476: Magearna
+10477-10485: Magearna (Original Color)
+10486-10494: Marshadow
+10495-10503: Poipole
+10504-10512: Naganadel
+10513-10521: Stakataka
+10522-10530: Blacephalon
+10531-10539: Zeraora
+10540-10548: Egg

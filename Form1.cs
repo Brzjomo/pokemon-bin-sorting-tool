@@ -1,8 +1,11 @@
 using System;
 using System.Data;
+using System.IO;
 using System.Text;
 using System.Windows.Forms;
 using YamlDotNet.Serialization;
+using static System.Net.Mime.MediaTypeNames;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace pokemon_bin_sorting_tool
 {
@@ -11,6 +14,7 @@ namespace pokemon_bin_sorting_tool
         public Form1()
         {
             InitializeComponent();
+            UpdateProgramTitle();
         }
 
         private class PokemonData
@@ -26,22 +30,35 @@ namespace pokemon_bin_sorting_tool
             public string pokemonName = "";
         }
 
+        private static string version = "1.0.0";
+
+        private void UpdateProgramTitle() => Text = GetProgramTitle();
+
+        private static string GetProgramTitle()
+        {
+            return "宝可梦bin文件整理工具" + " " + version;
+        }
+
         private PokemonData pokemonData = new();
 
+        private readonly string dataDirectory = "data";
         private readonly string defaultPath = "./data/";
         private readonly string defaultPokemonTXT = "USUM.txt";
+
+        private string fileNotExistInfo = "请检查data目录下TXT文件是否存在。";
+        private string fileNotExistCaption = "缺少必要文件";
 
         private async void ReadFromTXT(string path, string txt)
         {
             string fullPath = path + txt;
+
             // 读取默认txt
             if (fullPath != "")
             {
                 if (!File.Exists(fullPath))
                 {
-                    var dataDirectory = "data";
                     Directory.CreateDirectory(dataDirectory);
-                    MessageBox.Show("请检查data目录下" + txt + "是否存在。", "缺少必要文件", MessageBoxButtons.OK, MessageBoxIcon.Error); return;
+                    MessageBox.Show(fileNotExistInfo, fileNotExistCaption, MessageBoxButtons.OK, MessageBoxIcon.Error); return;
                 }
                 else
                 {
@@ -173,14 +190,83 @@ namespace pokemon_bin_sorting_tool
 
         private void BTRun_Click(object sender, EventArgs e)
         {
+            MessageBox.Show("可能会卡住一段时间，请耐心等待~", "提示", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
             switch (CBGameVersion.Text)
             {
                 case "USUM":
+                    if (!File.Exists(defaultPath + "USUM.txt"))
+                    {
+                        Directory.CreateDirectory(dataDirectory);
+                        MessageBox.Show(fileNotExistInfo, fileNotExistCaption, MessageBoxButtons.OK, MessageBoxIcon.Error); return;
+                    }
+
                     ReadFromTXT(defaultPath, "USUM.txt");
                     break;
                 default:
+                    if (!File.Exists(defaultPath + defaultPokemonTXT))
+                    {
+                        Directory.CreateDirectory(dataDirectory);
+                        MessageBox.Show(fileNotExistInfo, fileNotExistCaption, MessageBoxButtons.OK, MessageBoxIcon.Error); return;
+                    }
+
                     ReadFromTXT(defaultPath, defaultPokemonTXT);
                     break;
+            }
+
+            // 选取文件夹路径
+            FolderBrowserDialog folderBrowserDialog = new FolderBrowserDialog();
+            string floderPath = "";
+
+            if (folderBrowserDialog.ShowDialog() == DialogResult.OK)
+            {
+                floderPath = folderBrowserDialog.SelectedPath;
+            }
+
+            if (floderPath != "")
+            {
+                DirectoryInfo folderInfo = new(floderPath);
+
+                foreach (var pokemon in pokemonData.PokemonList)
+                {
+                    // 获取索引
+                    int startIndex = pokemon.indexStart;
+                    int endIndex = pokemon.indexEnd;
+
+                    for (int i = startIndex; i < endIndex + 1; i++)
+                    {
+                        string index = i.ToString().PadLeft(5, '0');
+                        string preFix = "dec_";
+                        string finalFile = preFix + index + ".bin";
+
+                        string sourceFile = floderPath + "\\" + finalFile;
+
+                        if (File.Exists(sourceFile))
+                        {
+                            // 创建文件夹
+                            string pokemonName = pokemon.pokemonName;
+
+                            if (CBIfReplaceBlank.Checked)
+                            {
+                                pokemonName = pokemonName.Replace(' ', '_');
+                            }
+
+                            string directory = floderPath + "\\" + pokemonName;
+
+                            if (!Directory.Exists(directory))
+                            {
+                                Directory.CreateDirectory(directory);
+                            }
+
+                            string destFile = directory + "\\" + finalFile;
+
+                            File.Move(sourceFile, destFile, true);
+                        }
+                    }
+                }
+
+                // 提示完成
+                MessageBox.Show("整理完成！", "提示", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
     }
