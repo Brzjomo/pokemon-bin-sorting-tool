@@ -57,432 +57,96 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="&gt;&gt;NUDLoopCount.ZOrder" xml:space="preserve">
-    <value>3</value>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="NUDStringWidth.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="CBGameVersion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 29</value>
+  </data>
+  <data name="CBIfOutputYML.Text" xml:space="preserve">
+    <value>是否输出YML</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="tabControl1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
   </data>
+  <data name="BTGen.Location" type="System.Drawing.Point, System.Drawing">
+    <value>354, 13</value>
+  </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="CBIfOutputYML.TabIndex" type="System.Int32, mscorlib">
+  <data name="TPPokemonModel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;TPIndexGen.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LBFileCount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 60</value>
+  </data>
+  <data name="&gt;&gt;labelGameVersion.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NUDStartIndex.Parent" xml:space="preserve">
+    <value>TPIndexGen</value>
+  </data>
+  <data name="CBIfReplaceBlank.Text" xml:space="preserve">
+    <value>是否替换空格</value>
+  </data>
+  <data name="&gt;&gt;LBLoopCount.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>Form1</value>
+  <data name="CBIfOutputYML.Location" type="System.Drawing.Point, System.Drawing">
+    <value>165, 54</value>
+  </data>
+  <data name="NUDLoopCount.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
   </data>
   <data name="&gt;&gt;labelGameVersion.Name" xml:space="preserve">
     <value>labelGameVersion</value>
   </data>
-  <data name="&gt;&gt;NUDLoopCount.Name" xml:space="preserve">
-    <value>NUDLoopCount</value>
-  </data>
-  <data name="TPPokemonModel.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
-  </data>
-  <data name="&gt;&gt;BTGen.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;NUDLoopCount.Parent" xml:space="preserve">
-    <value>TPIndexGen</value>
-  </data>
   <data name="&gt;&gt;TPPokemonModel.Name" xml:space="preserve">
     <value>TPPokemonModel</value>
   </data>
-  <data name="LBStartIndex.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;tabControl1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
-    <value>CenterScreen</value>
-  </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="TPPokemonModel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>480, 97</value>
-  </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>10, 21</value>
-  </data>
-  <data name="NUDFileCount.Location" type="System.Drawing.Point, System.Drawing">
-    <value>96, 56</value>
-  </data>
-  <data name="&gt;&gt;CBGameVersion.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;LBStringWidth.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;NUDStringWidth.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;LBLoopCount.Parent" xml:space="preserve">
-    <value>TPIndexGen</value>
-  </data>
-  <data name="labelGameVersion.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
-  </data>
-  <data name="TPPokemonModel.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;NUDLoopCount.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="NUDStringWidth.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;NUDStringWidth.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="TPPokemonModel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="LBLoopCount.Text" xml:space="preserve">
     <value>循环次数:</value>
   </data>
-  <data name="&gt;&gt;LBStartIndex.Name" xml:space="preserve">
-    <value>LBStartIndex</value>
+  <data name="&gt;&gt;BTRun.Parent" xml:space="preserve">
+    <value>TPPokemonModel</value>
   </data>
-  <data name="NUDStringWidth.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
-    <value>Center</value>
+  <data name="&gt;&gt;NUDEndIndex.Name" xml:space="preserve">
+    <value>NUDEndIndex</value>
   </data>
-  <data name="&gt;&gt;CBIfOutputYML.ZOrder" xml:space="preserve">
+  <data name="NUDStartIndex.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;tabControl1.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <data name="LBStartIndex.Size" type="System.Drawing.Size, System.Drawing">
     <value>78, 21</value>
   </data>
-  <data name="&gt;&gt;labelGameVersion.ZOrder" xml:space="preserve">
+  <data name="BTRun.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
   </data>
-  <data name="LBStringWidth.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="CBGameVersion.Size" type="System.Drawing.Size, System.Drawing">
-    <value>183, 29</value>
-  </data>
-  <data name="LBStartIndex.Text" xml:space="preserve">
-    <value>开始序号:</value>
-  </data>
-  <data name="tabControl1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>488, 131</value>
-  </data>
-  <data name="&gt;&gt;LBLoopCount.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;tabControl1.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="NUDFileCount.Size" type="System.Drawing.Size, System.Drawing">
-    <value>70, 28</value>
-  </data>
-  <data name="CBIfReplaceBlank.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="NUDStringWidth.Location" type="System.Drawing.Point, System.Drawing">
-    <value>263, 56</value>
-  </data>
-  <data name="&gt;&gt;TPPokemonModel.Parent" xml:space="preserve">
-    <value>tabControl1</value>
-  </data>
-  <data name="&gt;&gt;TPPokemonModel.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="NUDStartIndex.Size" type="System.Drawing.Size, System.Drawing">
-    <value>70, 28</value>
-  </data>
-  <data name="&gt;&gt;labelGameVersion.Parent" xml:space="preserve">
-    <value>TPPokemonModel</value>
-  </data>
-  <data name="CBIfOutputYML.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;LBFileCount.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="TPIndexGen.Size" type="System.Drawing.Size, System.Drawing">
-    <value>480, 97</value>
-  </data>
-  <data name="&gt;&gt;CBGameVersion.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;BTRun.Name" xml:space="preserve">
-    <value>BTRun</value>
-  </data>
-  <data name="&gt;&gt;LBStartIndex.Parent" xml:space="preserve">
+  <data name="&gt;&gt;BTGen.Parent" xml:space="preserve">
     <value>TPIndexGen</value>
-  </data>
-  <data name="LBLoopCount.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="CBGameVersion.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;LBLoopCount.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;BTRun.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LBFileCount.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="labelGameVersion.Size" type="System.Drawing.Size, System.Drawing">
-    <value>78, 21</value>
-  </data>
-  <data name="LBLoopCount.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="LBStringWidth.Text" xml:space="preserve">
-    <value>字符宽度:</value>
-  </data>
-  <data name="NUDLoopCount.Location" type="System.Drawing.Point, System.Drawing">
-    <value>263, 13</value>
-  </data>
-  <data name="NUDStartIndex.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
-    <value>Center</value>
-  </data>
-  <data name="&gt;&gt;NUDStartIndex.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="NUDStringWidth.Size" type="System.Drawing.Size, System.Drawing">
-    <value>70, 28</value>
-  </data>
-  <data name="CBIfOutputYML.Location" type="System.Drawing.Point, System.Drawing">
-    <value>165, 54</value>
-  </data>
-  <data name="CBGameVersion.Location" type="System.Drawing.Point, System.Drawing">
-    <value>109, 14</value>
-  </data>
-  <data name="&gt;&gt;LBStartIndex.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="NUDStartIndex.Location" type="System.Drawing.Point, System.Drawing">
-    <value>96, 13</value>
-  </data>
-  <data name="BTGen.Location" type="System.Drawing.Point, System.Drawing">
-    <value>354, 13</value>
-  </data>
-  <data name="&gt;&gt;NUDFileCount.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>宝可梦bin文件整理工具</value>
-  </data>
-  <data name="LBStartIndex.Location" type="System.Drawing.Point, System.Drawing">
-    <value>15, 17</value>
-  </data>
-  <data name="&gt;&gt;CBIfOutputYML.Name" xml:space="preserve">
-    <value>CBIfOutputYML</value>
-  </data>
-  <data name="tabControl1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>13, 15</value>
-  </data>
-  <data name="TPIndexGen.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 30</value>
-  </data>
-  <data name="tabControl1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
-  </data>
-  <data name="TPPokemonModel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 30</value>
-  </data>
-  <data name="&gt;&gt;LBStringWidth.Parent" xml:space="preserve">
-    <value>TPIndexGen</value>
-  </data>
-  <data name="&gt;&gt;TPPokemonModel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="labelGameVersion.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="LBFileCount.Size" type="System.Drawing.Size, System.Drawing">
-    <value>78, 21</value>
-  </data>
-  <data name="&gt;&gt;NUDStringWidth.Parent" xml:space="preserve">
-    <value>TPIndexGen</value>
-  </data>
-  <data name="&gt;&gt;labelGameVersion.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="CBGameVersion.Items" xml:space="preserve">
-    <value>USUM</value>
-  </data>
-  <data name="CBGameVersion.Text" xml:space="preserve">
-    <value>USUM</value>
-  </data>
-  <data name="&gt;&gt;LBStartIndex.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="&gt;&gt;NUDFileCount.Parent" xml:space="preserve">
-    <value>TPIndexGen</value>
-  </data>
-  <data name="NUDFileCount.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="TPPokemonModel.Text" xml:space="preserve">
-    <value>宝可梦模型</value>
-  </data>
-  <data name="BTGen.Text" xml:space="preserve">
-    <value>生成</value>
-  </data>
-  <data name="BTGen.Size" type="System.Drawing.Size, System.Drawing">
-    <value>110, 71</value>
-  </data>
-  <data name="&gt;&gt;LBStringWidth.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;CBIfReplaceBlank.Parent" xml:space="preserve">
-    <value>TPPokemonModel</value>
-  </data>
-  <data name="labelGameVersion.Location" type="System.Drawing.Point, System.Drawing">
-    <value>23, 18</value>
-  </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>514, 159</value>
-  </data>
-  <data name="&gt;&gt;tabControl1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="labelGameVersion.Text" xml:space="preserve">
-    <value>游戏版本:</value>
-  </data>
-  <data name="CBIfReplaceBlank.Location" type="System.Drawing.Point, System.Drawing">
-    <value>23, 54</value>
-  </data>
-  <data name="CBIfReplaceBlank.Text" xml:space="preserve">
-    <value>是否替换空格</value>
-  </data>
-  <data name="LBFileCount.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
   </data>
   <data name="&gt;&gt;BTGen.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;CBIfReplaceBlank.Name" xml:space="preserve">
-    <value>CBIfReplaceBlank</value>
+  <data name="&gt;&gt;CBIfOutputYML.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
-  <data name="&gt;&gt;BTRun.Parent" xml:space="preserve">
-    <value>TPPokemonModel</value>
-  </data>
-  <data name="BTRun.TabIndex" type="System.Int32, mscorlib">
+  <data name="&gt;&gt;labelGameVersion.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="BTRun.Size" type="System.Drawing.Size, System.Drawing">
-    <value>144, 65</value>
-  </data>
-  <data name="&gt;&gt;CBGameVersion.Parent" xml:space="preserve">
-    <value>TPPokemonModel</value>
-  </data>
-  <data name="BTRun.Location" type="System.Drawing.Point, System.Drawing">
-    <value>315, 14</value>
-  </data>
-  <data name="CBIfOutputYML.Text" xml:space="preserve">
-    <value>是否输出YML</value>
-  </data>
-  <data name="LBStartIndex.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="NUDStartIndex.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="tabControl1.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="labelGameVersion.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="TPIndexGen.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="LBStringWidth.Size" type="System.Drawing.Size, System.Drawing">
-    <value>78, 21</value>
-  </data>
-  <data name="&gt;&gt;BTGen.Name" xml:space="preserve">
-    <value>BTGen</value>
-  </data>
-  <data name="&gt;&gt;NUDFileCount.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="LBLoopCount.Size" type="System.Drawing.Size, System.Drawing">
-    <value>78, 21</value>
-  </data>
-  <data name="&gt;&gt;TPIndexGen.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="LBStringWidth.Location" type="System.Drawing.Point, System.Drawing">
-    <value>182, 60</value>
-  </data>
-  <data name="BTGen.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="CBGameVersion.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
-  </data>
-  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft YaHei UI, 12pt</value>
-  </data>
-  <data name="&gt;&gt;CBIfReplaceBlank.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;TPIndexGen.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="TPPokemonModel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
-  </data>
-  <data name="LBFileCount.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;tabControl1.Name" xml:space="preserve">
-    <value>tabControl1</value>
-  </data>
-  <data name="NUDLoopCount.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
-    <value>Center</value>
-  </data>
-  <data name="NUDLoopCount.Size" type="System.Drawing.Size, System.Drawing">
-    <value>70, 28</value>
-  </data>
-  <data name="BTRun.Text" xml:space="preserve">
-    <value>运行</value>
-  </data>
-  <data name="&gt;&gt;NUDFileCount.Name" xml:space="preserve">
-    <value>NUDFileCount</value>
-  </data>
-  <data name="LBLoopCount.Location" type="System.Drawing.Point, System.Drawing">
-    <value>182, 17</value>
-  </data>
-  <data name="&gt;&gt;LBStringWidth.Name" xml:space="preserve">
-    <value>LBStringWidth</value>
-  </data>
-  <data name="&gt;&gt;CBIfOutputYML.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;CBGameVersion.Name" xml:space="preserve">
-    <value>CBGameVersion</value>
-  </data>
-  <data name="&gt;&gt;TPIndexGen.Parent" xml:space="preserve">
-    <value>tabControl1</value>
-  </data>
-  <data name="&gt;&gt;NUDStartIndex.Name" xml:space="preserve">
-    <value>NUDStartIndex</value>
-  </data>
-  <data name="&gt;&gt;LBFileCount.Name" xml:space="preserve">
-    <value>LBFileCount</value>
-  </data>
-  <data name="&gt;&gt;TPIndexGen.Name" xml:space="preserve">
-    <value>TPIndexGen</value>
-  </data>
-  <data name="CBIfReplaceBlank.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;NUDStartIndex.Type" xml:space="preserve">
+  <data name="&gt;&gt;NUDFileCount.Type" xml:space="preserve">
     <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="LBFileCount.Location" type="System.Drawing.Point, System.Drawing">
-    <value>15, 60</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -3727,53 +3391,428 @@
         AABJRU5ErkJggg==
 </value>
   </data>
-  <data name="&gt;&gt;LBLoopCount.Name" xml:space="preserve">
-    <value>LBLoopCount</value>
+  <data name="LBStartIndex.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
   </data>
-  <data name="TPIndexGen.Text" xml:space="preserve">
-    <value>序号生成</value>
+  <data name="&gt;&gt;TPPokemonModel.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
-  <data name="&gt;&gt;BTGen.Parent" xml:space="preserve">
-    <value>TPIndexGen</value>
+  <data name="TPPokemonModel.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
-  <data name="NUDFileCount.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
-    <value>Center</value>
+  <data name="TPPokemonModel.Text" xml:space="preserve">
+    <value>宝可梦模型</value>
   </data>
-  <data name="NUDLoopCount.TabIndex" type="System.Int32, mscorlib">
+  <data name="CBGameVersion.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;CBGameVersion.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="BTGen.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 71</value>
+  </data>
+  <data name="&gt;&gt;LBStringWidth.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="&gt;&gt;CBIfReplaceBlank.ZOrder" xml:space="preserve">
-    <value>2</value>
+  <data name="LBStringWidth.Text" xml:space="preserve">
+    <value>字符宽度:</value>
   </data>
-  <data name="&gt;&gt;CBIfOutputYML.Parent" xml:space="preserve">
+  <data name="&gt;&gt;BTRun.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelGameVersion.Parent" xml:space="preserve">
     <value>TPPokemonModel</value>
   </data>
-  <data name="LBFileCount.Text" xml:space="preserve">
-    <value>文件计数:</value>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;BTRun.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;LBEndIndex.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;NUDLoopCount.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;LBStartIndex.Name" xml:space="preserve">
+    <value>LBStartIndex</value>
+  </data>
+  <data name="&gt;&gt;LBStringWidth.Name" xml:space="preserve">
+    <value>LBStringWidth</value>
+  </data>
+  <data name="NUDFileCount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 28</value>
+  </data>
+  <data name="&gt;&gt;CBIfReplaceBlank.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NUDFileCount.Parent" xml:space="preserve">
+    <value>TPIndexGen</value>
+  </data>
+  <data name="BTRun.Location" type="System.Drawing.Point, System.Drawing">
+    <value>315, 14</value>
+  </data>
+  <data name="&gt;&gt;LBFileCount.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CBGameVersion.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="BTGen.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="NUDEndIndex.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <data name="LBStringWidth.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="&gt;&gt;NUDStringWidth.Name" xml:space="preserve">
-    <value>NUDStringWidth</value>
-  </data>
-  <data name="&gt;&gt;LBFileCount.Parent" xml:space="preserve">
+  <data name="&gt;&gt;LBStringWidth.Parent" xml:space="preserve">
     <value>TPIndexGen</value>
   </data>
   <data name="CBIfOutputYML.Size" type="System.Drawing.Size, System.Drawing">
     <value>127, 25</value>
   </data>
+  <data name="&gt;&gt;NUDFileCount.Name" xml:space="preserve">
+    <value>NUDFileCount</value>
+  </data>
+  <data name="BTGen.Text" xml:space="preserve">
+    <value>生成</value>
+  </data>
+  <data name="&gt;&gt;tabControl1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="NUDStartIndex.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 28</value>
+  </data>
+  <data name="tabControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="LBLoopCount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 21</value>
+  </data>
+  <data name="NUDStringWidth.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="CBGameVersion.Location" type="System.Drawing.Point, System.Drawing">
+    <value>109, 14</value>
+  </data>
+  <data name="&gt;&gt;CBIfOutputYML.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CBGameVersion.Items" xml:space="preserve">
+    <value>USUM</value>
+  </data>
+  <data name="NUDStartIndex.Location" type="System.Drawing.Point, System.Drawing">
+    <value>96, 13</value>
+  </data>
+  <data name="&gt;&gt;NUDLoopCount.Parent" xml:space="preserve">
+    <value>TPIndexGen</value>
+  </data>
+  <data name="tabControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 15</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>10, 21</value>
+  </data>
+  <data name="&gt;&gt;LBStartIndex.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="NUDLoopCount.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;BTRun.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;NUDStartIndex.Name" xml:space="preserve">
+    <value>NUDStartIndex</value>
+  </data>
+  <data name="&gt;&gt;NUDEndIndex.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;TPPokemonModel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LBLoopCount.Parent" xml:space="preserve">
+    <value>TPIndexGen</value>
+  </data>
+  <data name="LBFileCount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 21</value>
+  </data>
+  <data name="LBFileCount.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;CBIfReplaceBlank.Parent" xml:space="preserve">
+    <value>TPPokemonModel</value>
+  </data>
+  <data name="&gt;&gt;CBIfOutputYML.Parent" xml:space="preserve">
+    <value>TPPokemonModel</value>
+  </data>
+  <data name="LBLoopCount.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="LBStartIndex.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 17</value>
+  </data>
+  <data name="LBLoopCount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>182, 17</value>
+  </data>
+  <data name="labelGameVersion.Text" xml:space="preserve">
+    <value>游戏版本:</value>
+  </data>
+  <data name="&gt;&gt;NUDFileCount.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
   <data name="CBIfReplaceBlank.Size" type="System.Drawing.Size, System.Drawing">
     <value>125, 25</value>
   </data>
-  <data name="&gt;&gt;NUDStartIndex.Parent" xml:space="preserve">
+  <data name="tabControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>488, 131</value>
+  </data>
+  <data name="CBGameVersion.Text" xml:space="preserve">
+    <value>USUM</value>
+  </data>
+  <data name="TPIndexGen.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="labelGameVersion.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 18</value>
+  </data>
+  <data name="LBLoopCount.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="BTRun.Size" type="System.Drawing.Size, System.Drawing">
+    <value>144, 65</value>
+  </data>
+  <data name="&gt;&gt;TPIndexGen.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="LBEndIndex.Location" type="System.Drawing.Point, System.Drawing">
+    <value>182, 17</value>
+  </data>
+  <data name="&gt;&gt;BTRun.Name" xml:space="preserve">
+    <value>BTRun</value>
+  </data>
+  <data name="TPIndexGen.Size" type="System.Drawing.Size, System.Drawing">
+    <value>480, 97</value>
+  </data>
+  <data name="&gt;&gt;CBIfOutputYML.Name" xml:space="preserve">
+    <value>CBIfOutputYML</value>
+  </data>
+  <data name="NUDStartIndex.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="LBStringWidth.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="LBStringWidth.Location" type="System.Drawing.Point, System.Drawing">
+    <value>182, 60</value>
+  </data>
+  <data name="NUDLoopCount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 28</value>
+  </data>
+  <data name="&gt;&gt;NUDStringWidth.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CBGameVersion.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="NUDStringWidth.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 28</value>
+  </data>
+  <data name="&gt;&gt;CBGameVersion.Name" xml:space="preserve">
+    <value>CBGameVersion</value>
+  </data>
+  <data name="&gt;&gt;NUDStringWidth.Parent" xml:space="preserve">
     <value>TPIndexGen</value>
   </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei UI, 12pt</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>宝可梦bin文件整理工具</value>
+  </data>
+  <data name="&gt;&gt;LBEndIndex.Parent" xml:space="preserve">
+    <value>TPIndexGen</value>
+  </data>
+  <data name="NUDEndIndex.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 28</value>
+  </data>
+  <data name="&gt;&gt;TPIndexGen.Name" xml:space="preserve">
+    <value>TPIndexGen</value>
+  </data>
+  <data name="LBStringWidth.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 21</value>
+  </data>
+  <data name="&gt;&gt;CBGameVersion.Parent" xml:space="preserve">
+    <value>TPPokemonModel</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;NUDLoopCount.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CBIfReplaceBlank.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="LBStartIndex.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="TPPokemonModel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 30</value>
+  </data>
+  <data name="LBFileCount.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;NUDStartIndex.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LBLoopCount.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LBStringWidth.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CBIfReplaceBlank.Name" xml:space="preserve">
+    <value>CBIfReplaceBlank</value>
+  </data>
+  <data name="CBIfOutputYML.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="LBStartIndex.Text" xml:space="preserve">
+    <value>开始序号:</value>
+  </data>
+  <data name="NUDFileCount.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;NUDEndIndex.Parent" xml:space="preserve">
+    <value>TPIndexGen</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Form1</value>
+  </data>
+  <data name="&gt;&gt;NUDEndIndex.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LBEndIndex.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="labelGameVersion.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;BTGen.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;LBStartIndex.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="TPIndexGen.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 30</value>
+  </data>
+  <data name="TPPokemonModel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>480, 97</value>
+  </data>
+  <data name="&gt;&gt;NUDStringWidth.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="CBIfReplaceBlank.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="BTRun.Text" xml:space="preserve">
+    <value>运行</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>514, 159</value>
+  </data>
+  <data name="NUDFileCount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>96, 56</value>
+  </data>
+  <data name="&gt;&gt;TPPokemonModel.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="NUDStringWidth.Location" type="System.Drawing.Point, System.Drawing">
+    <value>263, 56</value>
+  </data>
+  <data name="&gt;&gt;LBEndIndex.Name" xml:space="preserve">
+    <value>LBEndIndex</value>
+  </data>
+  <data name="NUDFileCount.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;NUDStartIndex.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="labelGameVersion.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="CBIfOutputYML.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;tabControl1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LBFileCount.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="NUDLoopCount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>263, 13</value>
+  </data>
+  <data name="&gt;&gt;CBIfReplaceBlank.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="LBStringWidth.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;LBLoopCount.Name" xml:space="preserve">
+    <value>LBLoopCount</value>
+  </data>
+  <data name="NUDEndIndex.Location" type="System.Drawing.Point, System.Drawing">
+    <value>263, 13</value>
+  </data>
+  <data name="&gt;&gt;NUDLoopCount.Name" xml:space="preserve">
+    <value>NUDLoopCount</value>
+  </data>
+  <data name="&gt;&gt;LBFileCount.Parent" xml:space="preserve">
+    <value>TPIndexGen</value>
+  </data>
+  <data name="&gt;&gt;TPIndexGen.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="&gt;&gt;LBEndIndex.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LBStartIndex.Parent" xml:space="preserve">
+    <value>TPIndexGen</value>
+  </data>
+  <data name="&gt;&gt;tabControl1.Name" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="&gt;&gt;BTGen.Name" xml:space="preserve">
+    <value>BTGen</value>
+  </data>
+  <data name="&gt;&gt;NUDStringWidth.Name" xml:space="preserve">
+    <value>NUDStringWidth</value>
+  </data>
+  <data name="LBFileCount.Text" xml:space="preserve">
+    <value>文件计数:</value>
+  </data>
+  <data name="&gt;&gt;LBFileCount.Name" xml:space="preserve">
+    <value>LBFileCount</value>
+  </data>
+  <data name="labelGameVersion.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="TPIndexGen.Text" xml:space="preserve">
+    <value>序号生成</value>
+  </data>
+  <data name="CBIfReplaceBlank.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 54</value>
+  </data>
+  <data name="labelGameVersion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 21</value>
+  </data>
   <metadata name="$this.Language" type="System.Globalization.CultureInfo, System.Private.CoreLib, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
-    <value>en</value>
+    <value>zh-Hans</value>
   </metadata>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>

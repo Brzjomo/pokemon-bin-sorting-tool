@@ -20,7 +20,7 @@ namespace pokemon_bin_sorting_tool
             UpdateProgramTitle();
         }
 
-        private static string version = "1.0.3";
+        private static string version = "1.0.4";
 
         private void UpdateProgramTitle() => Text = GetProgramTitle();
 
@@ -29,7 +29,7 @@ namespace pokemon_bin_sorting_tool
             return this.Text + " " + version;
         }
 
-        private ComponentResourceManager resourceManger;
+        private ComponentResourceManager resourceManger = new ComponentResourceManager(typeof(Resources.Resource_en));
         private readonly ComponentResourceManager resourceMangerZH = new ComponentResourceManager(typeof(Resources.Resource_zh));
         private readonly ComponentResourceManager resourceMangerEN = new ComponentResourceManager(typeof(Resources.Resource_en));
 
@@ -64,9 +64,6 @@ namespace pokemon_bin_sorting_tool
         private readonly string dataDirectory = "data";
         private readonly string defaultPath = "./data/";
         private readonly string defaultPokemonTXT = "USUM.txt";
-
-        private string fileNotExistInfo = "";
-        private string fileNotExistCaption = "";
 
         private async void ReadFromTXT(string path, string txt)
         {
@@ -216,8 +213,6 @@ namespace pokemon_bin_sorting_tool
 
         private void BTRun_Click(object sender, EventArgs e)
         {
-            string longTimePrompt = "";
-            string longTimePromptCaption = "";
             MessageBox.Show(resourceManger.GetString("longTimePrompt"), resourceManger.GetString("longTimePromptCaption"), MessageBoxButtons.OK, MessageBoxIcon.Information);
 
             switch (CBGameVersion.Text)
@@ -294,8 +289,6 @@ namespace pokemon_bin_sorting_tool
                 }
 
                 // 提示完成
-                string completePrompt = "";
-                string completePromptCaption = "";
                 MessageBox.Show(resourceManger.GetString("completePrompt"), resourceManger.GetString("completePromptCaption"), MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
@@ -304,35 +297,36 @@ namespace pokemon_bin_sorting_tool
         {
             int startIndex = (int)NUDStartIndex.Value;
             int fileCount = (int)NUDFileCount.Value;
-            int loopCount = (int)NUDLoopCount.Value;
+            int endIndex = (int)NUDEndIndex.Value;
             int stringWith = (int)NUDStringWidth.Value;
 
             // 计算序号
             int index = startIndex;
+            int loopCount = (endIndex - startIndex + 1) / fileCount;
             string fileIndex = "";
             string fileEndIndex = "";
             string outputString = "";
 
             for (int i = 0; i < loopCount; i++)
             {
-                int endIndex = index + fileCount - 1;
+                int currentEndIndex = index + fileCount - 1;
 
                 fileIndex = index.ToString().PadLeft(stringWith, '0');
-                fileEndIndex = endIndex.ToString().PadLeft(stringWith, '0');
+                fileEndIndex = currentEndIndex.ToString().PadLeft(stringWith, '0');
 
                 fileIndex = fileIndex + "-" + fileEndIndex;
 
                 outputString += fileIndex + "\r";
 
-                index = endIndex + 1;
+                index = currentEndIndex + 1;
             }
 
             // 保存txt
             SaveFileDialog saveFileDialog = new SaveFileDialog
             {
-                FileName = "Index",
-                Filter = "txt文件(*.txt)|*.txt",
-                Title = "保存txt文件"
+                FileName = resourceManger.GetString("indexGenFileName"),
+                Filter = resourceManger.GetString("indexGenFilter"),
+                Title = resourceManger.GetString("indexGenTitle")
             };
             saveFileDialog.ShowDialog();
 

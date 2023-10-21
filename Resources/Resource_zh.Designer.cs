@@ -106,20 +106,47 @@ namespace pokemon_bin_sorting_tool.Resources {
         }
         
         /// <summary>
+        ///   查找类似 序号 的本地化字符串。
+        /// </summary>
+        internal static string indexGenFileName {
+            get {
+                return ResourceManager.GetString("indexGenFileName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 txt文件(*.txt)|*.txt 的本地化字符串。
+        /// </summary>
+        internal static string indexGenFilter {
+            get {
+                return ResourceManager.GetString("indexGenFilter", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 保存txt文件 的本地化字符串。
+        /// </summary>
+        internal static string indexGenTitle {
+            get {
+                return ResourceManager.GetString("indexGenTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 结束序号: 的本地化字符串。
+        /// </summary>
+        internal static string LBEndIndex {
+            get {
+                return ResourceManager.GetString("LBEndIndex", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   查找类似 文件计数: 的本地化字符串。
         /// </summary>
         internal static string LBFileCount {
             get {
                 return ResourceManager.GetString("LBFileCount", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   查找类似 循环次数: 的本地化字符串。
-        /// </summary>
-        internal static string LBLoopCount {
-            get {
-                return ResourceManager.GetString("LBLoopCount", resourceCulture);
             }
         }
         

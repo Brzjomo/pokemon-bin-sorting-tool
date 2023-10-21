@@ -132,11 +132,20 @@
   <data name="fileNotExistInfo" xml:space="preserve">
     <value>请检查data目录下TXT文件是否存在。</value>
   </data>
+  <data name="indexGenFileName" xml:space="preserve">
+    <value>序号</value>
+  </data>
+  <data name="indexGenFilter" xml:space="preserve">
+    <value>txt文件(*.txt)|*.txt</value>
+  </data>
+  <data name="indexGenTitle" xml:space="preserve">
+    <value>保存txt文件</value>
+  </data>
+  <data name="LBEndIndex" xml:space="preserve">
+    <value>结束序号:</value>
+  </data>
   <data name="LBFileCount" xml:space="preserve">
     <value>文件计数:</value>
-  </data>
-  <data name="LBLoopCount" xml:space="preserve">
-    <value>循环次数:</value>
   </data>
   <data name="LBStartIndex" xml:space="preserve">
     <value>开始序号:</value>

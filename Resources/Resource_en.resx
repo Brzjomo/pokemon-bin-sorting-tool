@@ -132,11 +132,20 @@
   <data name="fileNotExistInfo" xml:space="preserve">
     <value>Please check if the TXT file exists in the data directory.</value>
   </data>
+  <data name="indexGenFileName" xml:space="preserve">
+    <value>Index</value>
+  </data>
+  <data name="indexGenFilter" xml:space="preserve">
+    <value>TXT File(*.txt)|*.txt</value>
+  </data>
+  <data name="indexGenTitle" xml:space="preserve">
+    <value>Save TXT File</value>
+  </data>
+  <data name="LBEndIndex" xml:space="preserve">
+    <value>End:</value>
+  </data>
   <data name="LBFileCount" xml:space="preserve">
     <value>File Count:</value>
-  </data>
-  <data name="LBLoopCount" xml:space="preserve">
-    <value>Loop Count:</value>
   </data>
   <data name="LBStartIndex" xml:space="preserve">
     <value>Start Index:</value>

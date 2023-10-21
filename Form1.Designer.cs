@@ -40,8 +40,8 @@
             NUDStringWidth = new NumericUpDown();
             LBStringWidth = new Label();
             BTGen = new Button();
-            NUDLoopCount = new NumericUpDown();
-            LBLoopCount = new Label();
+            NUDEndIndex = new NumericUpDown();
+            LBEndIndex = new Label();
             NUDFileCount = new NumericUpDown();
             LBFileCount = new Label();
             NUDStartIndex = new NumericUpDown();
@@ -50,7 +50,7 @@
             TPPokemonModel.SuspendLayout();
             TPIndexGen.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)NUDStringWidth).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)NUDLoopCount).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)NUDEndIndex).BeginInit();
             ((System.ComponentModel.ISupportInitialize)NUDFileCount).BeginInit();
             ((System.ComponentModel.ISupportInitialize)NUDStartIndex).BeginInit();
             SuspendLayout();
@@ -78,6 +78,7 @@
             // 
             resources.ApplyResources(CBIfOutputYML, "CBIfOutputYML");
             CBIfOutputYML.Name = "CBIfOutputYML";
+            CBIfOutputYML.TabStop = false;
             CBIfOutputYML.UseVisualStyleBackColor = true;
             // 
             // BTRun
@@ -93,6 +94,7 @@
             CBIfReplaceBlank.Checked = true;
             CBIfReplaceBlank.CheckState = CheckState.Checked;
             CBIfReplaceBlank.Name = "CBIfReplaceBlank";
+            CBIfReplaceBlank.TabStop = false;
             CBIfReplaceBlank.UseVisualStyleBackColor = true;
             // 
             // labelGameVersion
@@ -113,8 +115,8 @@
             TPIndexGen.Controls.Add(NUDStringWidth);
             TPIndexGen.Controls.Add(LBStringWidth);
             TPIndexGen.Controls.Add(BTGen);
-            TPIndexGen.Controls.Add(NUDLoopCount);
-            TPIndexGen.Controls.Add(LBLoopCount);
+            TPIndexGen.Controls.Add(NUDEndIndex);
+            TPIndexGen.Controls.Add(LBEndIndex);
             TPIndexGen.Controls.Add(NUDFileCount);
             TPIndexGen.Controls.Add(LBFileCount);
             TPIndexGen.Controls.Add(NUDStartIndex);
@@ -125,7 +127,7 @@
             // NUDStringWidth
             // 
             resources.ApplyResources(NUDStringWidth, "NUDStringWidth");
-            NUDStringWidth.Maximum = new decimal(new int[] { 10, 0, 0, 0 });
+            NUDStringWidth.Maximum = new decimal(new int[] { 16, 0, 0, 0 });
             NUDStringWidth.Minimum = new decimal(new int[] { 1, 0, 0, 0 });
             NUDStringWidth.Name = "NUDStringWidth";
             NUDStringWidth.Value = new decimal(new int[] { 5, 0, 0, 0 });
@@ -142,18 +144,18 @@
             BTGen.UseVisualStyleBackColor = true;
             BTGen.Click += BTGen_Click;
             // 
-            // NUDLoopCount
+            // NUDEndIndex
             // 
-            resources.ApplyResources(NUDLoopCount, "NUDLoopCount");
-            NUDLoopCount.Maximum = new decimal(new int[] { 1000, 0, 0, 0 });
-            NUDLoopCount.Minimum = new decimal(new int[] { 1, 0, 0, 0 });
-            NUDLoopCount.Name = "NUDLoopCount";
-            NUDLoopCount.Value = new decimal(new int[] { 1, 0, 0, 0 });
+            resources.ApplyResources(NUDEndIndex, "NUDEndIndex");
+            NUDEndIndex.Maximum = new decimal(new int[] { 1000000, 0, 0, 0 });
+            NUDEndIndex.Minimum = new decimal(new int[] { 1, 0, 0, 0 });
+            NUDEndIndex.Name = "NUDEndIndex";
+            NUDEndIndex.Value = new decimal(new int[] { 9, 0, 0, 0 });
             // 
-            // LBLoopCount
+            // LBEndIndex
             // 
-            resources.ApplyResources(LBLoopCount, "LBLoopCount");
-            LBLoopCount.Name = "LBLoopCount";
+            resources.ApplyResources(LBEndIndex, "LBEndIndex");
+            LBEndIndex.Name = "LBEndIndex";
             // 
             // NUDFileCount
             // 
@@ -192,7 +194,7 @@
             TPIndexGen.ResumeLayout(false);
             TPIndexGen.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)NUDStringWidth).EndInit();
-            ((System.ComponentModel.ISupportInitialize)NUDLoopCount).EndInit();
+            ((System.ComponentModel.ISupportInitialize)NUDEndIndex).EndInit();
             ((System.ComponentModel.ISupportInitialize)NUDFileCount).EndInit();
             ((System.ComponentModel.ISupportInitialize)NUDStartIndex).EndInit();
             ResumeLayout(false);
@@ -213,8 +215,8 @@
         private NumericUpDown NUDStartIndex;
         private Label LBStartIndex;
         private Button BTGen;
-        private NumericUpDown NUDLoopCount;
-        private Label LBLoopCount;
+        private NumericUpDown NUDEndIndex;
+        private Label LBEndIndex;
         private NumericUpDown NUDStringWidth;
         private Label LBStringWidth;
     }

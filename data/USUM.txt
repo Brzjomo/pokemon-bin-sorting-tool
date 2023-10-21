@@ -29,7 +29,7 @@
 00253-00261: Alolan Rattata
 00262-00270: Raticate
 00271-00279: Female Raticate
-00280-00297: Alolan Raticate
+00280-00288: Alolan Raticate
 00298-00306: Spearow
 00307-00315: Fearow
 00316-00324: Ekans
@@ -50,10 +50,10 @@
 00451-00459: Alolan Sandshrew
 00460-00468: Sandslash
 00469-00477: Alolan Sandslash
-00478-00486: Nidoran (F)
+00478-00486: Nidoran (Female)
 00487-00495: Nidorina
 00496-00504: Nidoqueen
-00505-00513: Nidoran (M)
+00505-00513: Nidoran (Male)
 00514-00522: Nidorino
 00523-00531: Nidoking
 00532-00540: Clefairy
@@ -151,7 +151,7 @@
 01360-01368: Alolan Exeggutor
 01369-01377: Cubone
 01378-01386: Marowak
-01387-01404: Alolan Marowak
+01387-01395: Alolan Marowak
 01405-01413: Hitmonlee
 01414-01422: Hitmonchan
 01423-01431: Lickitung
@@ -271,7 +271,34 @@
 02449-02457: Female Murkrow
 02458-02466: Slowking
 02467-02475: Misdreavus
-02476-02727: Unown All Symbols, In Order
+02476-02484: Unown A
+02485-02493: Unown B
+02494-02502: Unown C
+02503-02511: Unown D
+02512-02520: Unown E
+02521-02529: Unown F
+02530-02538: Unown G
+02539-02547: Unown H
+02548-02556: Unown I
+02557-02565: Unown J
+02566-02574: Unown K
+02575-02583: Unown L
+02584-02592: Unown M
+02593-02601: Unown N
+02602-02610: Unown O
+02611-02619: Unown P
+02620-02628: Unown Q
+02629-02637: Unown R
+02638-02646: Unown S
+02647-02655: Unown T
+02656-02664: Unown U
+02665-02673: Unown V
+02674-02682: Unown W
+02683-02691: Unown X
+02692-02700: Unown Y
+02701-02709: Unown Z
+02710-02718: Unown Exclamation Mark
+02719-02727: Unown Question Mark
 02728-02736: Wobbuffet
 02737-02745: Female Wobbuffet
 02746-02754: Girafarig
@@ -868,7 +895,11 @@
 08065-08073: Keldeo (Resolute)
 08074-08082: Meloetta (Aria)
 08083-08091: Meloetta (Pirouette)
-08092-08136: Genesect (All)
+08092-08100: Genesect
+08101-08109: Genesect (Water)
+08110-08118: Genesect (Electric)
+08119-08127: Genesect (Fire)
+08128-08136: Genesect (Ice)
 08137-08145: Chespin
 08146-08154: Quilladin
 08155-08163: Chesnaught
@@ -877,7 +908,7 @@
 08182-08190: Delphox
 08191-08199: Froakie
 08200-08208: Frogadier
-08209-08226: Greninja
+08209-08217: Greninja
 08227-08235: Ash Greninja
 08236-08244: Bunnelby
 08245-08253: Diggersby
@@ -886,7 +917,26 @@
 08272-08280: Talonflame
 08281-08289: Scatterbug
 08290-08298: Spewpa
-08299-08478: All Vivillon Forms
+08299-08307: Vivillon (Icy_Snow)
+08308-08316: Vivillon (Polar)
+08317-08325: Vivillon (Tundra)
+08326-08334: Vivillon (Continental)
+08335-08343: Vivillon (Garden)
+08344-08352: Vivillon (Elegant)
+08353-08361: Vivillon (Meadow)
+08362-08370: Vivillon (Modern)
+08371-08379: Vivillon (Marine)
+08380-08388: Vivillon (Archipelago)
+08389-08397: Vivillon (High Plains)
+08398-08406: Vivillon (Sandstorm)
+08407-08415: Vivillon (River)
+08416-08424: Vivillon (Monsoon)
+08425-08433: Vivillon (Savanna)
+08434-08442: Vivillon (Sun)
+08443-08451: Vivillon (Ocean)
+08452-08460: Vivillon (Jungle)
+08461-08469: Vivillon (Fancy)
+08470-08478: Vivillon (Poke Ball)
 08479-08487: Litleo
 08488-08496: Pyroar
 08497-08505: Female Pyroar
@@ -955,8 +1005,10 @@
 09064-09072: Klefki
 09073-09081: Phantump
 09082-09090: Trevenant
-09091-09126: Pumpkaboo
-09127-09162: Gourgeist
+09091-09099: Pumpkaboo
+09118-09126: Pumpkaboo (Super Large)
+09127-09135: Gourgeist
+09154-09162: Gourgeist (Super Large)
 09163-09171: Bergmite
 09172-09180: Avalugg
 09181-09189: Noibat
@@ -964,7 +1016,7 @@
 09199-09207: Xerneas
 09208-09216: Yveltal
 09217-09225: Zygarde (50%)
-09226-09252: Zygarde (10%)
+09226-09234: Zygarde (10%)
 09253-09261: Zygarde (100%)
 09262-09270: Diancie
 09271-09279: Mega Diancie
@@ -984,10 +1036,10 @@
 09397-09405: Trumbeak
 09406-09414: Toucannon
 09415-09423: Yungoos
-09424-09441: Gumshoos
+09424-09432: Gumshoos
 09442-09450: Grubbin
 09451-09459: Charjabug
-09460-09477: Vikavolt
+09460-09468: Vikavolt
 09478-09486: Crabrawler
 09487-09495: Crabominable
 09496-09504: Oricorio (Fire)
@@ -995,7 +1047,8 @@
 09514-09522: Oricorio (Psychic)
 09523-09531: Oricorio (Ghost)
 09532-09540: Cutiefly
-09541-09558: Ribombee
+09541-09549: Ribombee
+09550-09558: Ribombee (Super Large)
 09559-09567: Rockruff
 09568-09576: Lycanroc (Dawn)
 09577-09585: Lycanroc (Midnight)
@@ -1007,13 +1060,13 @@
 09631-09639: Mudbray
 09640-09648: Mudsdale
 09649-09657: Dewpider
-09658-09675: Araquanid
+09658-09666: Araquanid
 09676-09684: Fomantis
-09685-09702: Lurantis
+09685-09693: Lurantis
 09703-09711: Morelull
 09712-09720: Shiinotic
 09721-09729: Salandit
-09730-09747: Salazzle
+09730-09738: Salazzle
 09748-09756: Stufful
 09757-09765: Bewear
 09766-09774: Bounsweet
@@ -1028,18 +1081,49 @@
 09847-09855: Pallosand
 09856-09864: Pyukumuku
 09865-09873: Type_Null
-09874-10035: Silvally (Normal-Fairy)
-10036-10161: Minior (all forms)
+09874-09882: Silvally (Normal)
+09883-09891: Silvally (Fighting)
+09892-09900: Silvally (Flying)
+09901-09909: Silvally (Poison)
+09910-09918: Silvally (Ground)
+09919-09927: Silvally (Rock)
+09928-09936: Silvally (Bug)
+09937-09945: Silvally (Ghost)
+09946-09954: Silvally (Steel)
+09955-09963: Silvally (Fire)
+09964-09972: Silvally (Water)
+09973-09981: Silvally (Grass)
+09982-09990: Silvally (Electric)
+09991-09999: Silvally (Psychic)
+10000-10008: Silvally (Ice)
+10009-10017: Silvally (Dragon)
+10018-10026: Silvally (Dark)
+10027-10035: Silvally (Fairy)
+10036-10044: Minior (Red)
+10045-10053: Minior (Orange)
+10054-10062: Minior (Yellow)
+10063-10071: Minior (Green)
+10072-10080: Minior (Blue)
+10081-10089: Minior (Indigo)
+10090-10098: Minior (Violet)
+10099-10107: Minior (Red Core)
+10108-10116: Minior (Orange Core)
+10117-10125: Minior (Yellow Core)
+10126-10134: Minior (Green Core)
+10135-10143: Minior (Blue Core)
+10144-10152: Minior (Indigo Core)
+10153-10161: Minior (Violet Core)
 10162-10170: Komala
 10171-10179: Turtonator
-10180-10197: Togedemaru
-10198-10233: Mimikyu
+10180-10188: Togedemaru
+10198-10206: Mimikyu (Disguised Form)
+10207-10215: Mimikyu (Busted Form)
 10234-10242: Bruxish
 10243-10251: Drampa
 10252-10260: Dhelmise
 10261-10269: Jangmo-o
 10270-10278: Hakamo-o
-10279-10296: Kommo-o
+10279-10287: Kommo-o
 10297-10305: Tapu Koko
 10306-10314: Tapu Lele
 10315-10323: Tapu Bulu
@@ -1055,9 +1139,9 @@
 10405-10413: Celesteela
 10414-10422: Kartana
 10423-10431: Guzzlord
-10432-10440: Necrozma (Normal)
-10441-10449: Necrozma (Solgaleo/Dusk Mane)
-10450-10458: Necrozma (Lunala/Dawn Wings)
+10432-10440: Necrozma
+10441-10449: Necrozma (Dusk Mane)
+10450-10458: Necrozma (Dawn Wings)
 10459-10467: Necrozma (Ultra)
 10468-10476: Magearna
 10477-10485: Magearna (Original Color)
