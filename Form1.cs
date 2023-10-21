@@ -1,5 +1,7 @@
 using System;
+using System.ComponentModel;
 using System.Data;
+using System.Globalization;
 using System.IO;
 using System.Text;
 using System.Windows.Forms;
@@ -17,6 +19,17 @@ namespace pokemon_bin_sorting_tool
             UpdateProgramTitle();
         }
 
+        private static string version = "1.0.1";
+
+        private void UpdateProgramTitle() => Text = GetProgramTitle();
+
+        private string GetProgramTitle()
+        {
+            return this.Text + " " + version;
+        }
+
+        private readonly ComponentResourceManager resourceManger = new ComponentResourceManager(typeof(Form1));
+
         private class PokemonData
         {
             [YamlMember(Alias = "PokemonList", ApplyNamingConventions = false)]
@@ -27,16 +40,8 @@ namespace pokemon_bin_sorting_tool
         {
             public int indexStart = 0;
             public int indexEnd = 0;
+            public int fileCount = 0;
             public string pokemonName = "";
-        }
-
-        private static string version = "1.0.0";
-
-        private void UpdateProgramTitle() => Text = GetProgramTitle();
-
-        private static string GetProgramTitle()
-        {
-            return "宝可梦bin文件整理工具" + " " + version;
         }
 
         private PokemonData pokemonData = new();
@@ -45,8 +50,8 @@ namespace pokemon_bin_sorting_tool
         private readonly string defaultPath = "./data/";
         private readonly string defaultPokemonTXT = "USUM.txt";
 
-        private string fileNotExistInfo = "请检查data目录下TXT文件是否存在。";
-        private string fileNotExistCaption = "缺少必要文件";
+        private string fileNotExistInfo = "";
+        private string fileNotExistCaption = "";
 
         private async void ReadFromTXT(string path, string txt)
         {
@@ -58,7 +63,7 @@ namespace pokemon_bin_sorting_tool
                 if (!File.Exists(fullPath))
                 {
                     Directory.CreateDirectory(dataDirectory);
-                    MessageBox.Show(fileNotExistInfo, fileNotExistCaption, MessageBoxButtons.OK, MessageBoxIcon.Error); return;
+                    MessageBox.Show(resourceManger.GetString("fileNotExistInfo"), resourceManger.GetString("fileNotExistCaption"), MessageBoxButtons.OK, MessageBoxIcon.Error); return;
                 }
                 else
                 {
@@ -77,8 +82,6 @@ namespace pokemon_bin_sorting_tool
                     // 格式化
                     foreach (var line in inputString)
                     {
-                        //Cursor.Current = Cursors.WaitCursor;
-
                         if (line != "")
                         {
                             if (line.Contains('\t'))
@@ -95,8 +98,6 @@ namespace pokemon_bin_sorting_tool
                     // 去重
                     foreach (var line in strings)
                     {
-                        //Cursor.Current = Cursors.WaitCursor;
-
                         bool ifExist = false;
                         foreach (var output in outputStrings)
                         {
@@ -158,6 +159,15 @@ namespace pokemon_bin_sorting_tool
                         indexEnd.Add(int.Parse(indexInfo[1]));
                     }
 
+                    // 文件计数
+                    List<int> fileCount = new();
+
+                    for (int i = 0; i < indexRange.Count; i++)
+                    {
+                        int count = indexEnd[i] - indexStart[i] + 1;
+                        fileCount.Add(count);
+                    }
+
                     // 整理信息
                     List<Pokemon> preparedPokemonList = new();
 
@@ -167,6 +177,7 @@ namespace pokemon_bin_sorting_tool
                         {
                             indexStart = indexStart[i],
                             indexEnd = indexEnd[i],
+                            fileCount = fileCount[i],
                             pokemonName = pokemonName[i],
                         };
 
@@ -190,7 +201,9 @@ namespace pokemon_bin_sorting_tool
 
         private void BTRun_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("可能会卡住一段时间，请耐心等待~", "提示", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            string longTimePrompt = "";
+            string longTimePromptCaption = "";
+            MessageBox.Show(resourceManger.GetString("longTimePrompt"), resourceManger.GetString("longTimePromptCaption"), MessageBoxButtons.OK, MessageBoxIcon.Information);
 
             switch (CBGameVersion.Text)
             {
@@ -198,7 +211,7 @@ namespace pokemon_bin_sorting_tool
                     if (!File.Exists(defaultPath + "USUM.txt"))
                     {
                         Directory.CreateDirectory(dataDirectory);
-                        MessageBox.Show(fileNotExistInfo, fileNotExistCaption, MessageBoxButtons.OK, MessageBoxIcon.Error); return;
+                        MessageBox.Show(resourceManger.GetString("fileNotExistInfo"), resourceManger.GetString("fileNotExistCaption"), MessageBoxButtons.OK, MessageBoxIcon.Error); return;
                     }
 
                     ReadFromTXT(defaultPath, "USUM.txt");
@@ -207,7 +220,7 @@ namespace pokemon_bin_sorting_tool
                     if (!File.Exists(defaultPath + defaultPokemonTXT))
                     {
                         Directory.CreateDirectory(dataDirectory);
-                        MessageBox.Show(fileNotExistInfo, fileNotExistCaption, MessageBoxButtons.OK, MessageBoxIcon.Error); return;
+                        MessageBox.Show(resourceManger.GetString("fileNotExistInfo"), resourceManger.GetString("fileNotExistCaption"), MessageBoxButtons.OK, MessageBoxIcon.Error); return;
                     }
 
                     ReadFromTXT(defaultPath, defaultPokemonTXT);
@@ -266,7 +279,9 @@ namespace pokemon_bin_sorting_tool
                 }
 
                 // 提示完成
-                MessageBox.Show("整理完成！", "提示", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                string completePrompt = "";
+                string completePromptCaption = "";
+                MessageBox.Show(resourceManger.GetString("completePrompt"), resourceManger.GetString("completePromptCaption"), MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
     }

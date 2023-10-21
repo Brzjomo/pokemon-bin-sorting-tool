@@ -117,221 +117,30 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="&gt;&gt;TPPokemonModel.Name" xml:space="preserve">
-    <value>TPPokemonModel</value>
+  <data name="TPPokemonModel.Text" xml:space="preserve">
+    <value>Pokemon Model</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="CBIfOutputYML.Size" type="System.Drawing.Size, System.Drawing">
-    <value>127, 25</value>
-  </data>
-  <data name="&gt;&gt;CBIfOutputYML.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="labelGameVersion.Location" type="System.Drawing.Point, System.Drawing">
-    <value>23, 18</value>
-  </data>
-  <data name="&gt;&gt;tabControl1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="labelGameVersion.Text" xml:space="preserve">
-    <value>游戏版本:</value>
-  </data>
-  <data name="&gt;&gt;tabControl1.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;TPPokemonModel.Parent" xml:space="preserve">
-    <value>tabControl1</value>
-  </data>
-  <data name="labelGameVersion.Size" type="System.Drawing.Size, System.Drawing">
-    <value>78, 21</value>
-  </data>
-  <data name="CBIfOutputYML.Location" type="System.Drawing.Point, System.Drawing">
-    <value>165, 54</value>
-  </data>
-  <data name="&gt;&gt;CBIfReplaceBlank.Parent" xml:space="preserve">
-    <value>TPPokemonModel</value>
-  </data>
-  <data name="tabControl1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>13, 15</value>
-  </data>
-  <data name="&gt;&gt;CBIfOutputYML.Name" xml:space="preserve">
-    <value>CBIfOutputYML</value>
-  </data>
-  <data name="BTRun.Text" xml:space="preserve">
-    <value>运行</value>
-  </data>
-  <data name="&gt;&gt;CBGameVersion.Parent" xml:space="preserve">
-    <value>TPPokemonModel</value>
-  </data>
-  <data name="&gt;&gt;BTRun.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="TPPokemonModel.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
-  </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>宝可梦bin文件整理工具</value>
-  </data>
-  <data name="TPPokemonModel.Text" xml:space="preserve">
-    <value>宝可梦模型</value>
-  </data>
-  <data name="CBGameVersion.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="labelGameVersion.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;labelGameVersion.Parent" xml:space="preserve">
-    <value>TPPokemonModel</value>
-  </data>
-  <data name="&gt;&gt;CBIfReplaceBlank.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;CBIfOutputYML.Parent" xml:space="preserve">
-    <value>TPPokemonModel</value>
-  </data>
-  <data name="&gt;&gt;TPPokemonModel.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="CBGameVersion.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;labelGameVersion.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;BTRun.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="CBGameVersion.Text" xml:space="preserve">
-    <value>USUM</value>
-  </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>Form1</value>
-  </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>10, 21</value>
-  </data>
-  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
-  </data>
-  <data name="CBIfReplaceBlank.Text" xml:space="preserve">
-    <value>是否替换空格</value>
-  </data>
-  <data name="CBIfReplaceBlank.Location" type="System.Drawing.Point, System.Drawing">
-    <value>23, 54</value>
-  </data>
-  <data name="&gt;&gt;BTRun.Parent" xml:space="preserve">
-    <value>TPPokemonModel</value>
-  </data>
-  <data name="BTRun.Location" type="System.Drawing.Point, System.Drawing">
-    <value>315, 14</value>
-  </data>
-  <data name="labelGameVersion.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>514, 159</value>
-  </data>
-  <data name="CBIfReplaceBlank.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+    <value>120, 25</value>
   </data>
   <data name="CBIfOutputYML.Text" xml:space="preserve">
-    <value>是否输出YML</value>
+    <value>output YML</value>
   </data>
-  <data name="tabControl1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
-  </data>
-  <data name="BTRun.Size" type="System.Drawing.Size, System.Drawing">
-    <value>144, 65</value>
-  </data>
-  <data name="&gt;&gt;labelGameVersion.Name" xml:space="preserve">
-    <value>labelGameVersion</value>
-  </data>
-  <data name="CBIfReplaceBlank.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
+  <data name="BTRun.Text" xml:space="preserve">
+    <value>Run</value>
   </data>
   <data name="CBIfReplaceBlank.Size" type="System.Drawing.Size, System.Drawing">
-    <value>125, 25</value>
+    <value>131, 25</value>
   </data>
-  <data name="BTRun.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
+  <data name="CBIfReplaceBlank.Text" xml:space="preserve">
+    <value>replace blank</value>
   </data>
-  <data name="TPPokemonModel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+  <data name="labelGameVersion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 21</value>
   </data>
-  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft YaHei UI, 12pt</value>
-  </data>
-  <data name="&gt;&gt;labelGameVersion.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;tabControl1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;CBIfOutputYML.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="tabControl1.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="TPPokemonModel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 30</value>
-  </data>
-  <data name="CBIfOutputYML.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;CBGameVersion.Name" xml:space="preserve">
-    <value>CBGameVersion</value>
-  </data>
-  <data name="CBGameVersion.Items" xml:space="preserve">
-    <value>USUM</value>
-  </data>
-  <data name="&gt;&gt;CBIfReplaceBlank.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="CBGameVersion.Size" type="System.Drawing.Size, System.Drawing">
-    <value>183, 29</value>
-  </data>
-  <data name="&gt;&gt;CBGameVersion.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="labelGameVersion.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
-  </data>
-  <data name="TPPokemonModel.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;CBGameVersion.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="CBGameVersion.Location" type="System.Drawing.Point, System.Drawing">
-    <value>109, 14</value>
-  </data>
-  <data name="&gt;&gt;BTRun.Name" xml:space="preserve">
-    <value>BTRun</value>
-  </data>
-  <data name="&gt;&gt;CBIfReplaceBlank.Name" xml:space="preserve">
-    <value>CBIfReplaceBlank</value>
-  </data>
-  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
-    <value>CenterScreen</value>
-  </data>
-  <data name="CBIfOutputYML.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;tabControl1.Name" xml:space="preserve">
-    <value>tabControl1</value>
-  </data>
-  <data name="TPPokemonModel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>480, 97</value>
-  </data>
-  <data name="&gt;&gt;TPPokemonModel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="labelGameVersion.Text" xml:space="preserve">
+    <value>Version:</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -3576,31 +3385,25 @@
         AABJRU5ErkJggg==
 </value>
   </data>
-  <data name="tabControl1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>488, 131</value>
-  </data>
-  <data name="$this.Localizable" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="$this.Language" type="System.Globalization.CultureInfo, mscorlib">
-    <value>en</value>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Pokemon bin sorting tool</value>
   </data>
   <data name="completePrompt" xml:space="preserve">
-    <value>整理完成！</value>
+    <value>Finished !</value>
   </data>
   <data name="completePromptCaption" xml:space="preserve">
-    <value>提示</value>
+    <value>Prompt</value>
   </data>
   <data name="fileNotExistCaption" xml:space="preserve">
-    <value>缺少必要文件</value>
+    <value>Missing Necessary File</value>
   </data>
   <data name="fileNotExistInfo" xml:space="preserve">
-    <value>请检查data目录下TXT文件是否存在。</value>
+    <value>Please check if the TXT file exists in the data directory.</value>
   </data>
   <data name="longTimePrompt" xml:space="preserve">
-    <value>可能会卡住一段时间，请耐心等待~</value>
+    <value>It may be stuck for a while, please be patient~</value>
   </data>
   <data name="longTimePromptCaption" xml:space="preserve">
-    <value>提示</value>
+    <value>Prompt</value>
   </data>
 </root>
