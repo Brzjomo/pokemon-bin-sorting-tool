@@ -676,7 +676,24 @@
 06337-06345: Darkrai
 06346-06354: Shaymin (Land)
 06355-06363: Shaymin (Sky)
-06364-06525: Arceus (Normal-Fairy, in Type Order)
+06364-06372: Arceus (Normal)
+06373-06381: Arceus (Fighting)
+06382-06390: Arceus (Flying)
+06391-06399: Arceus (Poison)
+06400-06408: Arceus (Ground)
+06409-06417: Arceus (Rock)
+06418-06426: Arceus (Bug)
+06427-06435: Arceus (Ghost)
+06436-06444: Arceus (Steel)
+06445-06453: Arceus (Fire)
+06454-06462: Arceus (Water)
+06463-06471: Arceus (Grass)
+06472-06480: Arceus (Electric)
+06481-06489: Arceus (Psychic)
+06490-06498: Arceus (Ice)
+06499-06507: Arceus (Dragon)
+06508-06516: Arceus (Dark)
+06517-06525: Arceus (Fairy)
 06526-06534: Victini
 06535-06543: Snivy
 06544-06552: Servine

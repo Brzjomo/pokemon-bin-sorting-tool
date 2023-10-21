@@ -3406,4 +3406,7 @@
   <data name="longTimePromptCaption" xml:space="preserve">
     <value>Prompt</value>
   </data>
+  <data name="TPIndexGen" xml:space="preserve">
+    <value>Index Gen</value>
+  </data>
 </root>

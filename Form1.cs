@@ -19,7 +19,7 @@ namespace pokemon_bin_sorting_tool
             UpdateProgramTitle();
         }
 
-        private static string version = "1.0.1";
+        private static string version = "1.0.2";
 
         private void UpdateProgramTitle() => Text = GetProgramTitle();
 
@@ -282,6 +282,50 @@ namespace pokemon_bin_sorting_tool
                 string completePrompt = "";
                 string completePromptCaption = "";
                 MessageBox.Show(resourceManger.GetString("completePrompt"), resourceManger.GetString("completePromptCaption"), MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+        }
+
+        private async void BTGen_Click(object sender, EventArgs e)
+        {
+            int startIndex = (int)NUDStartIndex.Value;
+            int fileCount = (int)NUDFileCount.Value;
+            int loopCount = (int)NUDLoopCount.Value;
+            int stringWith = (int)NUDStringWidth.Value;
+
+            // 计算序号
+            int index = startIndex;
+            string fileIndex = "";
+            string fileEndIndex = "";
+            string outputString = "";
+
+            for (int i = 0; i < loopCount; i++)
+            {
+                int endIndex = index + fileCount - 1;
+
+                fileIndex = index.ToString().PadLeft(stringWith, '0');
+                fileEndIndex = endIndex.ToString().PadLeft(stringWith, '0');
+
+                fileIndex = fileIndex + "-" + fileEndIndex;
+
+                outputString += fileIndex + "\r";
+
+                index = endIndex + 1;
+            }
+
+            // 保存txt
+            SaveFileDialog saveFileDialog = new SaveFileDialog
+            {
+                FileName = "Index",
+                Filter = "txt文件(*.txt)|*.txt",
+                Title = "保存txt文件"
+            };
+            saveFileDialog.ShowDialog();
+
+            if (saveFileDialog.FileName != "")
+            {
+                await using var streamWriter = new StreamWriter(saveFileDialog.OpenFile());
+                await streamWriter.WriteLineAsync(outputString);
+                streamWriter.Close();
             }
         }
     }
