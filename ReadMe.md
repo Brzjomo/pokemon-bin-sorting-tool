@@ -4,7 +4,7 @@ The pokemon-bin-sorting-tool is a tool used to organize Pokémon bin format mode
 
 This tool is made for [Pokemon3DStoUnity](https://github.com/opeious/Pokemon3DStoUnity).
 
-![Snipaste_2023-10-21_02-32-28](assests/Snipaste_2023-10-21_14-21-59.png)
+![Snipaste_2023-10-21_02-32-28](assests/Snipaste_2023-10-21_18-49-17.png)
 
 
 
@@ -54,7 +54,7 @@ The tool relies on a txt file that defines file categories, the `USUM.TXT` file 
 
 本工具是为了配合[Pokemon3DStoUnity](https://github.com/opeious/Pokemon3DStoUnity)使用而制作的。
 
-![Snipaste_2023-10-21_02-32-28](assests/Snipaste_2023-10-21_02-32-28.png)
+![Snipaste_2023-10-21_02-32-28](assests/Snipaste_2023-10-21_18-43-18.png)
 
 
 

@@ -16,10 +16,11 @@ namespace pokemon_bin_sorting_tool
         public Form1()
         {
             InitializeComponent();
+            UpdateResourceManager();
             UpdateProgramTitle();
         }
 
-        private static string version = "1.0.2";
+        private static string version = "1.0.3";
 
         private void UpdateProgramTitle() => Text = GetProgramTitle();
 
@@ -28,7 +29,21 @@ namespace pokemon_bin_sorting_tool
             return this.Text + " " + version;
         }
 
-        private readonly ComponentResourceManager resourceManger = new ComponentResourceManager(typeof(Form1));
+        private ComponentResourceManager resourceManger;
+        private readonly ComponentResourceManager resourceMangerZH = new ComponentResourceManager(typeof(Resources.Resource_zh));
+        private readonly ComponentResourceManager resourceMangerEN = new ComponentResourceManager(typeof(Resources.Resource_en));
+
+        private void UpdateResourceManager()
+        {
+            if (Thread.CurrentThread.CurrentCulture.Name.Contains("zh"))
+            {
+                resourceManger = resourceMangerZH;
+            }
+            else
+            {
+                resourceManger = resourceMangerEN;
+            }
+        }
 
         private class PokemonData
         {
