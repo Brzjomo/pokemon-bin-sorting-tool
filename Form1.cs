@@ -20,7 +20,7 @@ namespace pokemon_bin_sorting_tool
             UpdateProgramTitle();
         }
 
-        private static string version = "1.0.4";
+        private static string version = "1.0.5";
 
         private void UpdateProgramTitle() => Text = GetProgramTitle();
 
@@ -261,10 +261,11 @@ namespace pokemon_bin_sorting_tool
                         string index = i.ToString().PadLeft(5, '0');
                         string preFix = "dec_";
                         string finalFile = preFix + index + ".bin";
-
                         string sourceFile = floderPath + "\\" + finalFile;
+                        var finalFileInfo = new FileInfo(sourceFile);
 
-                        if (File.Exists(sourceFile))
+                        // 剔除过小的无用文件
+                        if (File.Exists(sourceFile) && finalFileInfo.Length > 1024)
                         {
                             // 创建文件夹
                             string pokemonName = pokemon.pokemonName;
